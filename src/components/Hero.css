@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    left: 0%;
+    top: -43%;
+    object-fit: cover;
+    min-width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    
+    /* position: absolute; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.content{
+    position: absolute;
+    top: 30vh;
+    line-height: 0.8;
+    /* left: 0; */
+}
+
+.s-head {
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 800;
+}
+.m-head {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1;
+}
+.m-head:hover{
+    transform: rotate(0) !important;
+}
+
+/* .s-head .wave{
+    transition: ease-in-out;
+    transform: 0.75s;
+} */
