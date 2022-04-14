@@ -1,3 +1,7 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+}
 .container {
     position: relative;
 }
@@ -5,9 +9,10 @@
 img {
     position: absolute;
     left: 0%;
-    top: -43%;
+    top: -12%;
     object-fit: cover;
     min-width: 100%;
+    opacity: 0.85;
 }
 
 .content-wrapper {
@@ -21,7 +26,7 @@ img {
 }
 .content{
     position: absolute;
-    top: 30vh;
+    top: 25vh;
     line-height: 0.8;
     /* left: 0; */
 }
@@ -31,10 +36,14 @@ img {
     font-size: 40px;
     font-weight: 800;
 }
+
+.s-head span{
+    color: #27aac8;
+}
 .m-head {
     color: #ffffff;
     font-family: 'Montserrat';
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 600;
     line-height: 1;
 }
@@ -42,7 +51,22 @@ img {
     transform: rotate(0) !important;
 }
 
-/* .s-head .wave{
-    transition: ease-in-out;
-    transform: 0.75s;
-} */
+.s-head .wave{
+    transform: rotate(-5.42178deg);
+}
+
+.links-wrap {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+}
+
+.links-wrap ul {
+    list-style-type: none;
+}
+
+.links-wrap li {
+    /* width: 200; */
+    margin: 40px auto;
+}
+
