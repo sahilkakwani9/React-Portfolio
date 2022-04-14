@@ -1,7 +1,7 @@
 .nav-wrap {
     position: absolute;
     list-style-type: none;
-    right: 2%;
+    right: 3%;
     top: 2%;
     z-index: 1;
    /* left: 31vw; */
@@ -18,9 +18,9 @@
 }
 
 .nav-wrap li{
-    margin-right: 5%;
+    margin-right: 10%;
     color: #383838;
-    font-family: 'open sans';
+    font-family: 'Roboto Mono';
     font-size: 30px;
     padding: 5px;
     /* margin: 5px; */
