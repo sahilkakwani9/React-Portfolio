@@ -41,7 +41,7 @@ img {
     color: #27aac8;
 }
 .m-head {
-    color: #ffffff;
+    color: #000;
     font-family: 'Montserrat';
     font-size: 80px;
     font-weight: 600;
@@ -65,7 +65,7 @@ img {
     padding: 10px 15px;
     padding-left: 30px;
     position: relative;
-    background-color: #000;
+    background-color: #27aac8;
     
     /* border-color: #ffffff; */
 }
