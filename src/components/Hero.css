@@ -55,26 +55,78 @@ img {
     transform: rotate(-5.42178deg);
 }
 
+.content button {
+    
+    font-family: 'Montserrat';
+    border: transparent;
+    font-size: 20px;
+    margin-top: 3%;
+    border-radius: 10px;
+    padding: 10px 15px;
+    padding-left: 30px;
+    position: relative;
+    background-color: #000;
+    
+    /* border-color: #ffffff; */
+}
+
+.content a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.content .icn {
+    position: absolute;
+    margin-right: 5px;
+    right: 75%;
+    bottom: 17%;
+    
+}
+
+.content .txt {
+    margin-top: 50px;
+}
+
+.content button:hover {
+    transition: 0.2s ease-in-out;
+    background: #27aac8;
+    border: #27aac8;
+    padding: 10px 20px;
+    padding-left: 35px;
+}
+
 .links-wrap {
     position: absolute;
     /* bottom: 10%; */
+
     display: flex;
-    right: 5%;
     height: 100%;
+    right: 5%;
+    /* top: 12%; */
     justify-content: center;
     align-items: center;
 }
 
 .links-wrap ul {
     list-style-type: none;
+    margin-bottom: 80%;
 }
 
 .links-wrap li {
     /* width: 200; */
-    margin: 40px auto;
+    margin: 10px auto;
     /* width: 50%; */
 }
 
 .links-wrap svg {
-    width: 70%;
+    width: 50%;
+}
+
+.vl {
+    position: absolute;
+    bottom: 0;
+    right: 30%;
+    border-left: 5px solid #551a8b;
+    height: 30%;
+    border-radius: 5px;
 }

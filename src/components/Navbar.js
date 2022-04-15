@@ -7,10 +7,10 @@ function Navbar() {
   return (
     <div className='nav-wrap'>
           <nav>
-            <li><a><Link to="/">Home</Link></a></li>
-            <li><a href=""><Link to="/projects">Projects</Link></a></li>
-            <li><a href=""><Link to="/about">About</Link></a></li>
-            <li><a href=""><Link to="/contact">Contact</Link></a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/projects">Projects</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </nav>
     </div>
   )
