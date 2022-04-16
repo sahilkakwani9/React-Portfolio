@@ -38,6 +38,7 @@
 }
 
 .nav-wrap a:hover {
+    transition: 0.2s ease-in-out;
     color: #000;
     border-bottom: #551a8b 2px solid;
 }

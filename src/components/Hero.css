@@ -6,7 +6,7 @@ body {
     position: relative;
 }
 
-img {
+.bg img {
     position: absolute;
     left: 0%;
     top: -12%;

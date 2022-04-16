@@ -1,0 +1,27 @@
+.about-container
+{
+    margin-top: 10%;
+    /* align-items: center;
+    text-align: center;
+    justify-content: center; */
+}
+
+.about-container .intro-content{
+    display: flex;
+}
+.about-container .intro h1 {
+    border-bottom: #27aac8 5px solid;
+    border-radius: 5px;
+    width: 7%;
+    margin: auto;
+}
+
+.about-container .intro img {
+    /* width: 10%; */
+    width: 20%;
+    border-radius: 5px;
+}
+
+.about-container .intro p {
+    width: 200%;
+}
