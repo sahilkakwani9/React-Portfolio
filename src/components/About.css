@@ -1,6 +1,9 @@
 .about-container
 {
-    margin-top: 10%;
+    padding-top: 10%;
+    
+    height: 100vh;
+    background-color: #f4d4ff;
     /* align-items: center;
     text-align: center;
     justify-content: center; */
@@ -8,6 +11,10 @@
 
 .about-container .intro-content{
     display: flex;
+    width: 80%;
+    padding-left: 0;
+    margin-top: 5%;
+    
 }
 .about-container .intro h1 {
     border-bottom: #27aac8 5px solid;
@@ -18,10 +25,31 @@
 
 .about-container .intro img {
     /* width: 10%; */
-    width: 20%;
-    border-radius: 5px;
+    width: 40%;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 30%;
+    border: #000 4px solid;
 }
 
 .about-container .intro p {
-    width: 200%;
+    /* width: 200%; */
+    text-align: left;
+    margin-top: 5%;
+}
+
+.up {
+    margin-top: 2%;
+    /* position: relative; */
+}
+
+
+.about-container .txt-wrap {
+    /* margin-bottom: 10%; */
+    width: 5%;
+    margin: -1% auto 0 auto;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #27aac8;
+    
 }
