@@ -19,7 +19,7 @@
 .about-container .intro h1 {
     border-bottom: #27aac8 5px solid;
     border-radius: 5px;
-    width: 7%;
+    width: 5%;
     margin: auto;
 }
 
@@ -46,10 +46,15 @@
 
 .about-container .txt-wrap {
     /* margin-bottom: 10%; */
-    width: 5%;
-    margin: -1% auto 0 auto;
-    color: #fff;
+    width: 4%;
+    margin: -1.5% auto 0 auto;
+    color: #551a8b;
     border-radius: 20px;
-    background-color: #27aac8;
+    /* background-color: #27aac8; */
     
+}
+
+.about-container .txt-wrap p {
+    padding: 5px;
+    font-size: 20px;
 }
