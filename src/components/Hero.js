@@ -27,9 +27,6 @@ function Hero() {
   return (
     <>
       <div className='hero-container'>
-        <motion.div
-    
-  />
         <div className="bg">
           <img src="/hello_bg.png" alt="bg-img" />
         </div>

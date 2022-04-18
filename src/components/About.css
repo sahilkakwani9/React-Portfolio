@@ -1,41 +1,52 @@
 .about-container
 {
-    padding-top: 10%;
-    
+    padding-top: 13%;
+    /* margin-top: 10%; */
+    /* display: flex; */
     height: 100vh;
+    justify-content: space-between;
     background-color: #f4d4ff;
     /* align-items: center;
     text-align: center;
     justify-content: center; */
 }
 
+.about-container .intro {
+    width: 70%;
+}
+
 .about-container .intro-content{
-    display: flex;
-    width: 80%;
+    /* display: flex; */
+    /* width: 80%; */
     padding-left: 0;
     margin-top: 5%;
-    
+    /* width: 50%; */
 }
-.about-container .intro h1 {
+.about-container h1 {
     border-bottom: #27aac8 5px solid;
     border-radius: 5px;
-    width: 7%;
+    width: 6%;
     margin: auto;
 }
 
-.about-container .intro img {
-    /* width: 10%; */
+/* .about-container .intro img {
+    width: 10%; 
     width: 40%;
     border-radius: 50px;
     margin-top: 5%;
     margin-left: 30%;
+    box-shadow: 15px -15px 0 -3px var(#000), 15px -15px var(#27aac8);
     border: #000 4px solid;
-}
+} */
 
 .about-container .intro p {
     /* width: 200%; */
     text-align: left;
     margin-top: 5%;
+}
+
+.about-container .skills {
+    width: 70%;
 }
 
 .up {
