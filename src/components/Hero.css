@@ -9,7 +9,7 @@ body {
 .bg img {
     position: absolute;
     left: 0%;
-    top: -12%;
+    top: -5%;
     object-fit: cover;
     min-width: 100%;
     opacity: 0.85;
