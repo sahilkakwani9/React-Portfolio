@@ -11,26 +11,26 @@
 
 .about-container .intro-content{
     display: flex;
-    width: 80%;
+    width: 70%;
     padding-left: 0;
     margin-top: 5%;
+    margin: auto;
     
 }
-.about-container .intro h1 {
+.about-container h1 {
     border-bottom: #27aac8 5px solid;
     border-radius: 5px;
     width: 5%;
     margin: auto;
 }
 
-.about-container .intro img {
-    /* width: 10%; */
-    width: 40%;
+/* .about-container .intro img {
+    width: 30%;
     border-radius: 50px;
     margin-top: 5%;
     margin-left: 30%;
     border: #000 4px solid;
-}
+} */
 
 .about-container .intro p {
     /* width: 200%; */
@@ -47,7 +47,7 @@
 .about-container .txt-wrap {
     /* margin-bottom: 10%; */
     width: 4%;
-    margin: -1.5% auto 0 auto;
+    margin: -2% auto 0 auto;
     color: #551a8b;
     border-radius: 20px;
     /* background-color: #27aac8; */
@@ -57,4 +57,17 @@
 .about-container .txt-wrap p {
     padding: 5px;
     font-size: 20px;
+}
+
+.about-container .skills {
+    margin-top: 3%;
+}
+
+.about-container .skills-content {
+    display: flex;
+    margin: auto 45%;
+}
+
+.about-container .skills-content .skill{
+    
 }

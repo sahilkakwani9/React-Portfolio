@@ -31,7 +31,7 @@ function Hero() {
     
   />
         <div className="bg">
-          <img src="/hello_bg.png" alt="bg-img" />
+          <img src="/hello_bg(transparent).png" alt="bg-img" />
         </div>
         <div className='content-wrapper'>
           <motion.div className='content' animate={{ y: [150,0] }} transition={{ ease: "easeOut", duration: 1 }}>

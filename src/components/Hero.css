@@ -1,9 +1,11 @@
 body {
     height: 100vh;
     overflow: hidden;
+    background-color: #000;
 }
 .container {
     position: relative;
+    
 }
 
 .bg img {
@@ -35,13 +37,14 @@ body {
     font-family: 'Pacifico';
     font-size: 40px;
     font-weight: 800;
+    color: #fff;
 }
 
 .s-head span{
     color: #27aac8;
 }
 .m-head {
-    color: #000;
+    color: #fff;
     font-family: 'Montserrat';
     font-size: 80px;
     font-weight: 600;
@@ -119,7 +122,7 @@ body {
 }
 
 .links-wrap svg {
-    width: 50%;
+    width: 40%;
 }
 
 .vl {
