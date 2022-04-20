@@ -44,7 +44,11 @@ body {
     color: #27aac8;
 }
 .m-head {
+    /* color: #ff5925; */
     color: #fff;
+    background-image: linear-gradient(60deg, #E21143, #FFB03A);
+    background-clip: text;
+    color: transparent;
     font-family: 'Montserrat';
     font-size: 80px;
     font-weight: 600;
@@ -129,7 +133,8 @@ body {
     position: absolute;
     bottom: 0;
     right: 30%;
-    border-left: 5px solid #551a8b;
+    /* border-left: 5px solid #8807ff; */
+    border-left: 5px solid #27aac8;
     height: 30%;
     border-radius: 5px;
 }
