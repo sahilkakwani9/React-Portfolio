@@ -3,10 +3,10 @@ body {
     height: 100vh;
     overflow: hidden;
     background-color: #000;
+    
 }
 .container {
     position: relative;
-    mix-blend-mode: multiply;
 }
 
 .bg img {
@@ -29,7 +29,7 @@ body {
 }
 .content{
     position: absolute;
-    top: 25vh;
+    top: 20vh;
     line-height: 0.8;
     /* left: 0; */
 }
@@ -142,6 +142,19 @@ body {
     border-radius: 5px;
 }
 
+.marq {
+    position: absolute;
+    bottom: 10%;
+    color: #27aac8;
+    background-color: #000;
+    height: 4vw;
+    font-size: 30px;
+}
+
+.marq div{
+    /* margin-right: 350px; */
+    justify-content: space-around;
+}
 @media only screen and (max-width: 700px) {
     .s-head{
         font-size: 20px;
@@ -153,6 +166,16 @@ body {
     }
     .content{
         top:40vh;
+    }
+
+    .marq{
+        bottom: 15%;
+        height: 10%;
+        font-size: 20px;
+    }
+
+    .marq div{
+        margin-right: 5%;
     }
 }
 
