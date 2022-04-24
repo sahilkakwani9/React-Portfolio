@@ -132,19 +132,20 @@ body {
     width: 40%;
 }
 
-.vl {
+/* .vl {
     position: absolute;
     bottom: 0;
     right: 30%;
     /* border-left: 5px solid #8807ff; */
-    border-left: 5px solid #27aac8;
-    height: 30%;
-    border-radius: 5px;
-}
+    /* border-left: 5px solid #27aac8; */
+    /* height: 30%;
+    border-radius: 5px; */
+/* } */ 
 
 .marq {
-    position: absolute;
-    bottom: 10%;
+    /* position: absolute;
+    bottom: 10%; */
+    margin-top: 80vh;
     color: #27aac8;
     background-color: #000;
     height: 4vw;
