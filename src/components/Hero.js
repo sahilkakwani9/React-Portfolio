@@ -26,7 +26,8 @@ function Hero() {
   
   return (
     <>
-      <div className='hero-container'>
+    <div className='hero-container'>
+        
         <motion.div
     
   />
@@ -35,8 +36,12 @@ function Hero() {
         </div> */}
         <div className='content-wrapper'>
           <motion.div className='content' animate={{ y: [150,0] }} transition={{ ease: "easeOut", duration: 1 }}>
-            <h3 className='s-head'>I'm <span className='wave' style={wave}>Sahil 👋</span>!</h3>
+            <h3 className='s-head'>Hello👋, I'm <span className='wave' style={wave}>Sahil </span>!</h3>
             <h1 className='m-head'>A Freelance <br /> Web Developer.</h1>
+            {/* <section class="showcase">
+              <video src="./video.mp4" autoPlay loop muted></video>
+              <h1 className='title'>A Freelance <br /> Web Developer.</h1>
+            </section> */}
             <button class="resume"><a href="/Resume-Sahil-Kakwani.pdf" download><span class="icn"><FcDocument/></span><span className="txt">Resume</span></a></button>
           </motion.div>
         </div>

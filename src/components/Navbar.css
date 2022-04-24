@@ -1,7 +1,7 @@
 .nav-wrap {
     position: absolute;
     list-style-type: none;
-    right: 3%;
+    right: 7%;
     top: 2%;
     z-index: 1;
    /* left: 31vw; */
@@ -18,10 +18,10 @@
 }
 
 .nav-wrap li{
-    margin-right: 10%;
+    margin-right: 20%;
     /* color: #383838; */
     
-    font-family: 'Roboto Mono';
+    font-family: 'Futura T';
     font-size: 30px;
     padding: 5px;
     /* margin: 5px; */
@@ -43,5 +43,11 @@
     transition: 0.2s ease-in-out;
     /* color: #000; */
     color: cyan;
-    border-bottom: #551a8b 2px solid;
+    /* border-bottom: #fff 2px solid; */
+}
+
+
+@font-face {
+    font-family: 'Futura T';
+    src: local('Futura T'), url(../../public/Futura\ T\ Medium.ttf) format('truetype');
 }
