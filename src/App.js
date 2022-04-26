@@ -2,6 +2,7 @@ import './App.css';
 import Hero from './components/Hero'
 import Navbar from './components/Navbar';
 import About from './components/About';
+import Contact from './components/Contact';
 
 import {
   BrowserRouter,
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -45,20 +45,17 @@ function Hero() {
             </section> */}
             <button className="resume"><a href="/Resume-Sahil-Kakwani.pdf" download><span className="icn"><FcDocument/></span><span className="txt">Resume</span></a></button>
           </motion.div>
-          <Marquee className='marq' gradient={false} speed={80}>
+          {/* <Marquee className='marq' gradient={false} speed={80}>
           <div>
-            Web Developer
+            Think
           </div>
           <div>
-            Web Designer
+            Brainstorm
           </div>
           <div>
-            Programmer
+            Build
           </div>
-          <div>
-            Startups
-          </div>
-        </Marquee>
+        </Marquee> */}
         </div>
         <div className='links-wrap'>
           <div className='links'>
