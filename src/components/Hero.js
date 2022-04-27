@@ -38,24 +38,26 @@ function Hero() {
         <div className='content-wrapper'>
           <motion.div className='content' animate={{ y: [150,0] }} transition={{ ease: "easeOut", duration: 1 }}>
             <h3 className='s-head'>Hello👋, I'm <span className='wave' style={wave}>Sahil </span>!</h3>
-            <h1 className='m-head'>A Freelance <br /> Web Developer.</h1>
+            <Marquee className='marq' gradient={false} speed={80}>
+          <div className='gradient'>
+            Think
+            
+          </div>
+          <div className='gradient'>
+            Brainstorm
+          </div>
+          <div className='gradient'>
+            Build
+          </div>
+        </Marquee>
+            {/* <h1 className='m-head'>A Freelance <br /> Web Developer.</h1> */}
             {/* <section class="showcase">
               <video src="./video.mp4" autoPlay loop muted></video>
               <h1 className='title'>A Freelance <br /> Web Developer.</h1>
             </section> */}
             <button className="resume"><a href="/Resume-Sahil-Kakwani.pdf" download><span className="icn"><FcDocument/></span><span className="txt">Resume</span></a></button>
           </motion.div>
-          {/* <Marquee className='marq' gradient={false} speed={80}>
-          <div>
-            Think
-          </div>
-          <div>
-            Brainstorm
-          </div>
-          <div>
-            Build
-          </div>
-        </Marquee> */}
+          
         </div>
         <div className='links-wrap'>
           <div className='links'>
