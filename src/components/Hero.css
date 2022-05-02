@@ -170,7 +170,7 @@ body {
 
 .marq div{
     /* margin-right: 350px; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     font-family: 'Bangers';
 }
 /* .marq div h4{
@@ -203,9 +203,10 @@ body {
         overflow: hidden;
     }
     .s-head{
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 800;
-        margin-bottom: 10%;
+        margin-top: -10%;
+        margin-bottom: 15%;
     }
     .m-head{
         font-size: 30px;
@@ -221,10 +222,11 @@ body {
 
     .marq{
         bottom: 15%;
-        height: 10%;
+        /* height: 10%; */
         font-size: 40px;
         height: 20vw;
         width: 100%;
+        margin: 0 auto 0 auto;
         
     }
     .marq-wrapper {
@@ -245,7 +247,7 @@ body {
         display:none;
     }
 
-    .comp-none {
+    .marq-wrapper .comp-none {
         display: block;
     }
 
