@@ -43,7 +43,7 @@ function Hero() {
               </span>
               !
             </h3>
-            <div className="marq-wrapper">
+            {/* <div className="marq-wrapper">
               <Marquee className="marq" gradient={false} speed={200}>
                 <div className="gradient">Think</div>
                 <div className="gradient comp-none">Think</div>
@@ -59,16 +59,16 @@ function Hero() {
                 <div className="gradient">Build</div>
                 <div className="gradient">Build</div>
                 </Marquee>
-              </div>
+              </div> */}
               
 
-            </div>
+            {/* </div> */}
 
             {/* <h1 className='m-head'>A Freelance <br /> Web Developer.</h1> */}
-            {/* <section class="showcase">
-              <video src="./video.mp4" autoPlay loop muted></video>
+            <section class="showcase">
+              <video src="./video1.mp4" autoPlay loop muted></video>
               <h1 className='title'>A Freelance <br /> Web Developer.</h1>
-            </section> */}
+            </section>
             <button className="resume">
               <a href="/Resume-Sahil-Kakwani.pdf" download>
                 <span className="icn">
