@@ -44,16 +44,19 @@ function Hero() {
               !
             </h3>
             <div className="marq-wrapper">
-              <Marquee className="marq" gradient={false} speed={80}>
+              <Marquee className="marq" gradient={false} speed={200}>
                 <div className="gradient">Think</div>
+                <div className="gradient comp-none">Think</div>
                 <div className="gradient phone-none">Brainstorm</div>
                 <div className="gradient phone-none">Build</div>
               </Marquee>
               <div className="comp-none">
-                <Marquee className="marq" gradient={false} speed={80}>
+                <Marquee className="marq" gradient={false} speed={200}>
+                <div className="gradient">Brainstorm</div>
                 <div className="gradient">Brainstorm</div>
                 </Marquee>
-                <Marquee className="marq" gradient={false} speed={80}>
+                <Marquee className="marq" gradient={false} speed={200}>
+                <div className="gradient">Build</div>
                 <div className="gradient">Build</div>
                 </Marquee>
               </div>
