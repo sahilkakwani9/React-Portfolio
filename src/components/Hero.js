@@ -66,7 +66,6 @@ function Hero() {
 
             {/* <h1 className='m-head'>A Freelance <br /> Web Developer.</h1> */}
             <section class="showcase">
-              <video src="./video1.mp4" autoPlay loop muted></video>
               <h1 className='title'>A Freelance <br /> Web Developer.</h1>
             </section>
             <button className="resume">
