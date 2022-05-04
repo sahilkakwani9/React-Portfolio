@@ -20,7 +20,14 @@ function About() {
       <div className="intro">
         <h1>Sahil?</h1>
         <div className='intro-content'>
-          
+          <div className='tree'>
+            <div className="tree-left">
+              <img src="/tree.webp" alt="left-tree" />
+            </div>
+            <div className="tree-right">
+              <img src="/tree2.webp" alt="right-tree" />
+            </div>
+          </div>
           <div className="intro-right">
           <p>I am a Front-end web developer based out of gujarat, India. A keen learner and believer of consistent growth. I aspire to work at small and growing startups where i can employ my skills and experience. other than programming i love binging on podcasts and reading books.</p>
           </div>

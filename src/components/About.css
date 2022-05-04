@@ -22,8 +22,8 @@
 
 .about-container .intro-left {
     /* width: 30%; */
-    margin-top: 10%;
     display: flex;
+    margin-top: 5%;
     font-size: 35px;
     justify-content: center;
 }
@@ -40,20 +40,28 @@
     margin: auto;
 }
 
-.about-container .headshot {
+.about-container .tree-left{
+    position: absolute;
+    left: -10%;
+    top: 20%;
+}
+
+.about-container .tree-right{
+    position: absolute;
+    right: -10%;
+    top: 20%;
 }
 
 .about-container img {
+    /* position: absolute; */
     width: 50%;
-    /* border-radius: 20px; */
-    border: #fff solid 7px;
     /* margin-left: 30%; */
 }
 
 .about-container .intro p {
     /* width: 200%; */
     text-align: left;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .up {
