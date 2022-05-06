@@ -149,24 +149,7 @@ body {
     border-radius: 5px; */
  /* }  */ 
 
-.marq {
-    /* position: absolute; */
-    /* right: 40%; */
-    /* margin-top: 80vh; */
-    /* margin-top: 80vh; */
-    /* margin-right: 60%; */
-    /* color: rgb(247, 2, 2); */
-    color: #fff;
-    background-color: #000;
-    height: 7vw;
-    font-size: 80px;
-    width: 80%;
-    display: flex;
-    
-    /* position: absolute; */
-    margin: 8% auto 0 auto;
-    /* transform: rotate(270deg); */
-}
+
 
 .marq div{
     /* margin-right: 350px; */

@@ -1,5 +1,4 @@
-.about-container
-{
+.about-container {
     padding-top: 10%;
     
     height: 100vh;
@@ -31,7 +30,10 @@
 .about-container .intro-right {
     width: 70%;
     margin: auto;
+    font-size: 20px;
+    color: grey
 }
+
 .about-container h1 {
     color: #27aac8;
     border-bottom: #fff 5px solid;
@@ -54,7 +56,7 @@
 
 .about-container img {
     /* position: absolute; */
-    width: 50%;
+    width: 80%;
     /* margin-left: 30%; */
 }
 
@@ -90,7 +92,23 @@
 }
 
 .about-container .skills-content {
-    display: flex;
-    margin: auto 45%;
 }
 
+.marq {
+    /* position: absolute; */
+    /* right: 40%; */
+    /* margin-top: 80vh; */
+    /* margin-top: 80vh; */
+    /* margin-right: 60%; */
+    /* color: rgb(247, 2, 2); */
+    color: #fff;
+    background-color: #000;
+    height: 7vw;
+    font-size: 80px;
+    width: 80%;
+    display: flex;
+    
+    /* position: absolute; */
+    margin: 8% auto 0 auto;
+    /* transform: rotate(270deg); */
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import './About.css'
+import Marquee from "react-fast-marquee";
 
 function About() {
   var motionList = [];
@@ -18,18 +19,18 @@ function About() {
     <>
     <div className='about-container'>
       <div className="intro">
-        <h1>Sahil?</h1>
+        <h1>intro.</h1>
         <div className='intro-content'>
-          <div className='tree'>
-            <div className="tree-left">
+          {/* <div className='tree'>
+            {/* <div className="tree-left">
               <img src="/tree.webp" alt="left-tree" />
             </div>
             <div className="tree-right">
               <img src="/tree2.webp" alt="right-tree" />
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */} 
           <div className="intro-right">
-          <p>I am a Front-end web developer based out of gujarat, India. A keen learner and believer of consistent growth. I aspire to work at small and growing startups where i can employ my skills and experience. other than programming i love binging on podcasts and reading books.</p>
+          <p>I am a Front-end web developer based out of gujarat, India. A keen learner and believer of consistent growth. I aspire to work at small and growing startups where i can employ my skills and experience.<br/> other than programming, i love bingeing on podcasts and reading books.I have always liked building things and experimenting with them</p>
           </div>
           <div className="intro-left">
           <h2 className='gradient'>Dream -> </h2>
@@ -37,6 +38,28 @@ function About() {
           <h2 className='gradient'>Build</h2>
           </div>
           
+        </div>
+      </div>
+      <div className="skills">
+        <h1>skills</h1>
+        <div className="skills-content">
+          <Marquee className="marq" gradient={false} speed={200}>
+          <div className="skill">
+              <img src="/html5.svg" alt="html5" />
+            </div>
+            <div className="skill">
+              <img src="/css3.svg" alt="html5" />
+            </div>
+            <div className="skill">
+              <img src="/css3.svg" alt="html5" />
+            </div>
+            <div className="skill">
+              <img src="/javascript.svg" alt="html5" />
+            </div>
+            <div className="skill">
+              <img src="/nodejs.svg" alt="html5" />
+            </div>
+          </Marquee>
         </div>
       </div>
     </div>
