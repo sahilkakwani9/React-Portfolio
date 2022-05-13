@@ -18,6 +18,9 @@ function About() {
   return (
     <>
     <div className='about-container'>
+      <div className="bg">
+          <img src="/header-banner(black).png" alt="bg-img" />
+      </div>
       <div className="intro">
         <h1>intro.</h1>
         <div className='intro-content'>
@@ -30,7 +33,7 @@ function About() {
             </div> */}
           {/* </div> */} 
           <div className="intro-right">
-          <p>I am a Front-end web developer based out of gujarat, India. A keen learner and believer of consistent growth. I aspire to work at small and growing startups where i can employ my skills and experience.<br/> other than programming, i love bingeing on podcasts and reading books.I have always liked building things and experimenting with them</p>
+          <p>I am a Front-end web developer based out of gujarat, India. A keen learner and believer of consistent growth. I aspire to work at small and growing startups where i can employ my skills and experience.<br/> other than programming, i love bingeing on podcasts and reading books.I have always liked building things and experimenting with them. </p>
           </div>
           <div className="intro-left">
           <h2 className='gradient'>Dream -> </h2>

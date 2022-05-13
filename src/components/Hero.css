@@ -16,10 +16,10 @@ body {
     /* overflow: hidden; */
 }
 
-.bg img {
+.bg-hero img {
     position: absolute;
     left: 0%;
-    top: -12%;
+    top: 0%;
     object-fit: cover;
     min-width: 100%;
     opacity: 0.85;
@@ -254,7 +254,7 @@ body {
 .title {
     width: 100%;
     height: 100%;
-    background-color: #000 ;
+    /* background-color: #000 ; */
     font-family: 'Montserrat';
     font-size: 80px;
     font-weight: 800;

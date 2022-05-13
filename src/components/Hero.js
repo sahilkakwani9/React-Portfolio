@@ -27,9 +27,9 @@ function Hero() {
     <>
       <div className="hero-container">
         <motion.div />
-        {/* <div className="bg">
-          <img src="/hello_bg.png" alt="bg-img" />
-        </div> */}
+        <div className="bg-hero">
+          <img src="/bg_gradient(2).png" alt="bg-img" />
+        </div>
         <div className="content-wrapper">
           <motion.div
             className="content"
