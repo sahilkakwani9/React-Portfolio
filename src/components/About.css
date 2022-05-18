@@ -59,6 +59,7 @@
     border-radius: 5px;
     width: fit-content;
     margin: auto;
+    font-size: 40px;
 }
 
 .about-container .tree-left{
@@ -107,7 +108,7 @@
 }
 
 .about-container .skills {
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 .about-container .skills-content {
@@ -122,12 +123,41 @@
     /* color: rgb(247, 2, 2); */
     color: #fff;
     background-color: #000;
-    height: 7vw;
+    height: 15vw;
     font-size: 80px;
-    width: 80%;
+    width: 70%;
     display: flex;
     
     /* position: absolute; */
-    margin: 8% auto 0 auto;
+    margin: 5% auto 0 auto;
     /* transform: rotate(270deg); */
+}
+
+.skills .skills-content{
+    /* justify-content: space-between; */
+    display: flex;
+    justify-content: center;
+}
+
+.skill{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* .skills .skills-content div{
+    width: 100%;
+} */
+
+.skills img{
+    width: 40%;
+}
+.about-container .skills span{
+    position: absolute;
+    font-size: 20px;
+    bottom:30px;
+    text-align: center;
+    font-family: Montserrat;
+    /* margin-bottom: -35%; */
 }

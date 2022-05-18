@@ -47,20 +47,35 @@ function About() {
         <h1>skills</h1>
         <div className="skills-content">
           <Marquee className="marq" gradient={false} speed={200}>
-          <div className="skill">
+            <div className="skill">
               <img src="/html5.svg" alt="html5" />
+              <br />
+              <span>HTML</span>
             </div>
             <div className="skill">
               <img src="/css3.svg" alt="html5" />
-            </div>
-            <div className="skill">
-              <img src="/css3.svg" alt="html5" />
+              <br />
+              <span>CSS</span>
             </div>
             <div className="skill">
               <img src="/javascript.svg" alt="html5" />
+              <br />
+              <span>JAVASCRIPT</span>
             </div>
             <div className="skill">
               <img src="/nodejs.svg" alt="html5" />
+              <br />
+              <span>NODE</span>
+            </div>
+            <div className="skill">
+              <img src="/react.svg" alt="html5" />
+              <br />
+              <span>REACT</span>
+            </div>
+            <div className="skill">
+              <img src="/python.svg" alt="html5" />
+              <br />
+              <span>PYTHON</span>
             </div>
           </Marquee>
         </div>
