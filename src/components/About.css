@@ -152,12 +152,16 @@
 } */
 
 .skills img{
-    width: 40%;
+    width: 30%;
+}
+
+.skills .marq-top{
+    margin-top: 20px;
 }
 .about-container .skills span{
     position: absolute;
     font-size: 20px;
-    bottom:30px;
+    bottom:40px;
     text-align: center;
     font-family: Montserrat;
     /* margin-bottom: -35%; */

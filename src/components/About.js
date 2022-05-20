@@ -58,12 +58,12 @@ function About() {
               <span>CSS</span>
             </div>
             <div className="skill">
-              <img src="/javascript.svg" alt="html5" />
+              <img src="/javascript.svg" alt="html5" className='marq-top' />
               <br />
               <span>JAVASCRIPT</span>
             </div>
             <div className="skill">
-              <img src="/nodejs.svg" alt="html5" />
+              <img src="/nodejs.svg" alt="html5" className='marq-top'/>
               <br />
               <span>NODE</span>
             </div>
