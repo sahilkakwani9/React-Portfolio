@@ -12,7 +12,7 @@
 .bg img {
     position: absolute;
     left: 0%;
-    top: -35%;
+    top: -50%;
     object-fit: cover;
     min-width: 100%;
     opacity: 0.85;
@@ -59,7 +59,7 @@
     border-radius: 5px;
     width: fit-content;
     margin: auto;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .about-container .tree-left{
@@ -83,6 +83,7 @@
 .about-container .intro p {
     /* width: 200%; */
     text-align: left;
+    line-height: 1.5;
     /* margin-top: 10%; */
 }
 
