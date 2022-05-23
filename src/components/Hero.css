@@ -173,16 +173,18 @@ body {
 
 @media only screen and (max-width: 700px) {
     body {
-        max-width: 100vw;
+        min-width: 100vw;
         overflow: hidden;
         /* background-color: black; */
     }
     .hero-container {
-        padding-right: 3%;
-        padding-bottom: 10%;
+        min-height: 100vh;
+        min-width: 100vw;
+        overflow: hidden;
     }
     .content-wrapper {
         min-width: 100vw;
+        min-height: 100vh;
         overflow: hidden;
     }
     .s-head{
@@ -200,7 +202,7 @@ body {
     }
 
     .content button {
-        margin-top: 25%;
+        margin-top: 35%;
     }
 
     .bg-hero img{
@@ -228,7 +230,7 @@ body {
     }
 
     .showcase {
-        margin-top: 35%;
+        margin-top: 25%;
     }
     .showcase .title{
         font-size: 50px;
