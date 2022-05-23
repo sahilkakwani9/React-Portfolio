@@ -188,21 +188,29 @@ body {
         overflow: hidden;
     }
     .s-head{
-        font-size: 28px;
+        font-size: 150%;
         font-weight: 800;
         margin-top: -10%;
         margin-bottom: 15%;
     }
-    .m-head{
-        font-size: 30px;
+    .showcase .title{
+        font-size: 280%;
         font-weight: 600;
     }
     .content{
         top:30vh;
     }
 
+    .content .black-sect {
+        height: 45vh;
+        position: relative;
+    }
     .content button {
-        margin-top: 35%;
+        /* margin-top: 40%; */
+        /* margin-top: 20%; */
+        position: absolute;
+        bottom: 40%;
+        left: 30vw;
     }
 
     .bg-hero img{
@@ -232,9 +240,9 @@ body {
     .showcase {
         margin-top: 25%;
     }
-    .showcase .title{
+    /* .showcase .title{
         font-size: 50px;
-    }
+    } */
 
     .links-wrap {
         display: none;
