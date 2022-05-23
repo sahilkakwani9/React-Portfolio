@@ -1,0 +1,13 @@
+.project-container {
+    color:white;
+    margin-top: 100px;
+}
+
+.project-container h1{
+    color: #27aac8;
+    border-bottom: #fff 5px solid;
+    border-radius: 5px;
+    width: fit-content;
+    margin: auto;
+    font-size: 40px;
+}

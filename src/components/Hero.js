@@ -28,14 +28,15 @@ function Hero() {
       <div className="hero-container">
         <motion.div />
         <div className="bg-hero">
-          <img src="/bg_gradient(2).png" alt="bg-img" />
+          <img className="bg-big" src="/bg_gradient(2).png" alt="bg-img" />
+          <img className="bg-mobile" src="/bg_gradient(mobile).png" alt="bg-img" />
         </div>
         <div className="content-wrapper">
           <motion.div
             className="content"
             animate={{ y: [150, 0] }}
             transition={{ ease: "easeOut", duration: 1 }}
-          >
+          ><div className="grey-sect">
             <h3 className="s-head">
               Hello👋, I'm{" "}
               <span className="wave" style={wave}>
@@ -43,31 +44,11 @@ function Hero() {
               </span>
               !
             </h3>
-            {/* <div className="marq-wrapper">
-              <Marquee className="marq" gradient={false} speed={200}>
-                <div className="gradient">Think</div>
-                <div className="gradient comp-none">Think</div>
-                <div className="gradient phone-none">Brainstorm</div>
-                <div className="gradient phone-none">Build</div>
-              </Marquee>
-              <div className="comp-none">
-                <Marquee className="marq" gradient={false} speed={200}>
-                <div className="gradient">Brainstorm</div>
-                <div className="gradient">Brainstorm</div>
-                </Marquee>
-                <Marquee className="marq" gradient={false} speed={200}>
-                <div className="gradient">Build</div>
-                <div className="gradient">Build</div>
-                </Marquee>
-              </div> */}
-              
-
-            {/* </div> */}
-
-            {/* <h1 className='m-head'>A Freelance <br /> Web Developer.</h1> */}
             <section class="showcase">
               <h1 className='title'>A Freelance <br /> Web Developer.</h1>
             </section>
+          </div>
+          <div className="black-sect">
             <button className="resume">
               <a href="/Resume-Sahil-Kakwani.pdf" download>
                 <span className="icn">
@@ -76,6 +57,7 @@ function Hero() {
                 <span className="txt">Resume</span>
               </a>
             </button>
+          </div>
           </motion.div>
         </div>
         <div className="links-wrap">
