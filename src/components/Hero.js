@@ -26,7 +26,6 @@ function Hero() {
   return (
     <>
       <div className="hero-container">
-        <motion.div />
         <div className="bg-hero">
           <img className="bg-big" src="/bg_gradient(2).png" alt="bg-img" />
           <img className="bg-mobile" src="/bg_gradient(mobile).png" alt="bg-img" />
@@ -36,7 +35,7 @@ function Hero() {
             className="content"
             animate={{ y: [150, 0] }}
             transition={{ ease: "easeOut", duration: 1 }}
-          ><div className="grey-sect">
+          >
             <h3 className="s-head">
               Hello👋, I'm{" "}
               <span className="wave" style={wave}>
@@ -47,8 +46,10 @@ function Hero() {
             <section class="showcase">
               <h1 className='title'>A Freelance <br /> Web Developer.</h1>
             </section>
-          </div>
-          <div className="black-sect">
+            
+          </motion.div>
+        </div>
+        <div className="btn-wrapper">
             <button className="resume">
               <a href="/Resume-Sahil-Kakwani.pdf" download>
                 <span className="icn">
@@ -57,9 +58,8 @@ function Hero() {
                 <span className="txt">Resume</span>
               </a>
             </button>
-          </div>
-          </motion.div>
         </div>
+        
         <div className="links-wrap">
           <div className="links">
             <ul>

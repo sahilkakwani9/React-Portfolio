@@ -1,6 +1,6 @@
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     /* background-color: rgba(8, 8, 8, 0.447); */
     
 }
@@ -14,6 +14,7 @@ body {
 .hero-wrapper {
     /* width: 100vw; */
     /* overflow: hidden; */
+    position: relative;
 }
 
 .bg-hero img {
@@ -74,28 +75,37 @@ body {
     transform: rotate(-5.42178deg);
 }
 
-.content button {
+
+.btn-wrapper {
+    position:absolute;
+    bottom:15vh;
+    left: 45vw;
+}
+
+.btn-wrapper button {
     
     font-family: 'Montserrat';
     /* border: transparent; */
     background-color: transparent;
     font-size: 20px;
-    margin-top: 8%;
+    
+    /* margin-top: 8%; */
     border-radius: 10px;
     padding: 10px 15px;
     padding-left: 30px;
     position: relative;
+    
     border: 3px solid #27aac8;
     
     /* border-color: #ffffff; */
 }
 
-.content a {
+button a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.content .icn {
+button .icn {
     position: absolute;
     margin-right: 5px;
     right: 75%;
@@ -103,11 +113,11 @@ body {
     
 }
 
-.content .txt {
+button .txt {
     margin-top: 50px;
 }
 
-.content button:hover {
+button:hover {
     transition: 0.2s ease-in-out;
     background: #27aac8;
     border: 3px solid #27aac8;
@@ -173,18 +183,22 @@ body {
 
 @media only screen and (max-width: 700px) {
     body {
-        min-width: 100vw;
+        /* min-width: 100vw;
         overflow: hidden;
+        position: relative; */
         /* background-color: black; */
     }
     .hero-container {
         /* min-height: 100vh; */
         min-width: 100vw;
+        position: relative;
+        height: 100vh;
+        
         /* overflow: hidden; */
     }
     .content-wrapper {
         min-width: 100vw;
-        /* min-height: 100vh; */
+        
         /* overflow: hidden; */
     }
     .s-head{
@@ -196,22 +210,22 @@ body {
     .showcase .title{
         font-size: 280%;
         font-weight: 600;
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
     }
     .content{
         top:25vh;
     }
-
-    .content .black-sect {
-        height: 45vh;
-        position: relative;
-    }
-    .content button {
+    .btn-wrapper {
         /* margin-top: 40%; */
         /* margin-top: 20%; */
         position: absolute;
-        bottom: 7vh;
+        bottom: 15vh;
         left: 30vw;
+        /* margin: 0 auto; */
+        /* left: 30vw; */
+        /* bottom: 7vh; */
+        /* top: 20vh;
+        left: 30vw; */
     }
 
     .bg-hero img{
@@ -228,16 +242,6 @@ body {
         display: block;
         height: 100vh;
     }
-    .grey-sect {
-        /* padding-bottom:  15%; */
-    }
-
-    .black-sect {
-        /* background-color: #464646; */
-        /* background-color: #000;
-        padding-bottom: 80%; */
-    }
-
     .showcase {
         margin-top: 25%;
     }
