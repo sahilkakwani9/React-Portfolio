@@ -49,6 +49,7 @@ function Hero() {
             
           </motion.div>
         </div>
+        
         <div className="btn-wrapper">
             <button className="resume">
               <a href="/Resume-Sahil-Kakwani.pdf" download>

@@ -1,8 +1,10 @@
 .nav-wrap {
     position: absolute;
     list-style-type: none;
+    /* background-color: #272727; */
+    background-color: transparent;
     /* right: 7%; */
-    top: 2%;
+    padding-top: 2%;
     z-index: 1;
    /* left: 31vw; */
     width: 100%;
