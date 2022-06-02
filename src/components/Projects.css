@@ -26,6 +26,7 @@
     background: url('../../public/disney_hero.png') center no-repeat;
     background-size: cover;
     border-radius: 20px;
+    object-fit: fill;
     overflow: hidden;
 }
 
