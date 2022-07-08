@@ -6,13 +6,17 @@
     /* margin-top: -8vh; */
 }
 
+.text-container {
+    position: relative;
+}
+
 .main-container .bio {
     display: flex;
     justify-content: space-between;
 }
 
 .main-container .data {
-    padding-top: 40vh;
+    padding-top: 30vh;
     text-align: left;
     margin-left: 8vw;
     width: 30%;
@@ -31,7 +35,7 @@
     font-size: 1.5rem;
     color: #FFFFFF;
     letter-spacing: -0.51px;
-    /* margin-top: 4px; */
+    margin-top: -8px;
 }
 
 .bio .headshot-img {
@@ -55,6 +59,46 @@
     padding: 15px;
     line-height: 1.7;
     letter-spacing: -0.1px;
+}
+
+.main-container .skills-container{
+    position: absolute;
+    bottom: 5vh;
+    left: 8vw;
+    width: 645px;
+    overflow-x: scroll;
+}
+
+.main-container .skills-container h3 {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.64;
+    font-size: 1.5rem;
+    letter-spacing: -0.51px;
+    text-align: left;
+}
+
+.main-container .skills-container .skills-slider {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-container .skills-slider .list {
+    /* height: 100px;
+    width: 100px; */
+    margin-right: 30px;
+    color: #FFFFFF;
+    /* justify-content: space-between; */
+}
+
+.main-container .skills-container p {
+    margin: 0;
+}
+
+.main-container .skills-container .express{
+    width: 70px;
+    height: 70px;
 }
 
 
