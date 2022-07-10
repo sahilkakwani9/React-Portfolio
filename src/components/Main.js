@@ -10,12 +10,7 @@ function Main() {
           <h1 className='author'>Sahil Kakwani</h1>
           <div className="subtitle">Deep Thinker and Web Developer</div>
         </div>
-        <div className='headshot-img'>
-          <img src="./sahil-headshot-c.jpg" alt="" />
-          <div className='img-txt'>I am a Front-end web developer based out of gujarat, India. A keen learner and believer of consistent growth. I aspire to work at small and growing startups where i can employ my skills.</div>
-        </div>
-      </div>
-      <div className="skills-container">
+        <div className="skills-container">
         <h3>Skills</h3>
         <div className='skills-slider'>
           <div className='list'>
@@ -45,8 +40,13 @@ function Main() {
           </div>
         </div>
       </div>
-      </div>
-      
+        </div>
+        
+      </div> 
+      <div className='headshot-img'>
+          <img src="./sahil-headshot-c.jpg" alt="" />
+          <div className='img-txt'>I am a Front-end web developer based out of gujarat, India. A keen learner and believer of consistent growth. I aspire to work at small and growing startups where i can employ my skills.</div>
+        </div>  
     </div>
   )
 }

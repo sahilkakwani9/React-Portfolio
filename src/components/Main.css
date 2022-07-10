@@ -1,25 +1,27 @@
 .main-container {
-    
     min-height: 100vh;
     max-width: 100vw;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     /* margin-top: -8vh; */
 }
 
 .text-container {
-    position: relative;
+    /* position: relative; */
 }
 
 .main-container .bio {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    margin-left: 8vw;
 }
 
 .main-container .data {
     padding-top: 30vh;
     text-align: left;
-    margin-left: 8vw;
-    width: 30%;
+    
+    width: 70%;
 }
 
 .main-container .author {
@@ -38,35 +40,33 @@
     margin-top: -8px;
 }
 
-.bio .headshot-img {
-    width: 30%;
+.main-container .headshot-img {
     margin-top: 20vh;
     margin-right: 1vw;
 }
 
-.bio .headshot-img img{
-    height: 70vh;
-    width: 100%;
+.main-container .headshot-img img{
+    height: 73vh;
+    width: 90%;
     border-radius: 6px;
 }
 
-.bio .headshot-img .img-txt{
+.main-container .headshot-img .img-txt{
     color: #FFFFFF;
     text-align: start;
     opacity: 0.76;
     font-size: 1rem;
-    margin-top: -10px;
-    padding: 15px;
+    margin-top: -30px;
+    padding: 35px;
     line-height: 1.7;
     letter-spacing: -0.1px;
 }
 
 .main-container .skills-container{
-    position: absolute;
-    bottom: 5vh;
-    left: 8vw;
+    /* position: absolute; */
     width: 645px;
     overflow-x: scroll;
+    margin-top: 50px;
 }
 
 .main-container .skills-container h3 {
@@ -80,7 +80,7 @@
 
 .main-container .skills-container .skills-slider {
     display: flex;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-bottom: 10px;
 }
 
@@ -103,9 +103,11 @@
 
 
 @media only screen and (max-width: 700px) {
-    
 
-    .main-container .bio {
+    .text-container {
+        margin-top: 10vh;
+    }
+    .main-container {
         display: block;
     }
     .main-container .author {
@@ -114,16 +116,26 @@
 
     .main-container .data {
         width: 80%;
-        padding-top: 20vh;
+        padding-top: 25vh;
     }
 
-    .bio .headshot-img img {
+    .main-container .headshot-img img {
         /* display: none; */
+        height: 50vh;
     }
 
-    .bio .headshot-img {
+    .main-container .headshot-img {
+        padding-top: 0;
         width: 100%;
-        height: 100%;
+        height: 50%;
+        margin-top: 5vh;
+    }
+
+
+    .main-container .skills-container {
+        margin-bottom: 0;
+        margin-top: 13vh;
+        width: 100%;
     }
 
     
