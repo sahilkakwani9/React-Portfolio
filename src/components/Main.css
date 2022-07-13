@@ -41,12 +41,12 @@
 }
 
 .main-container .headshot-img {
-    margin-top: 20vh;
+    margin-top: 25vh;
     margin-right: 1vw;
 }
 
 .main-container .headshot-img img{
-    height: 73vh;
+    height: 68vh;
     width: 90%;
     border-radius: 6px;
 }
@@ -64,13 +64,13 @@
 
 .main-container .skills-container{
     /* position: absolute; */
-    width: 645px;
+    width: 45vw;
     overflow-x: scroll;
-    margin-top: 50px;
+    margin-top: 10vh;
 }
 
 .main-container .skills-container h3 {
-    color: #FFFFFF;
+    color: yellow;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.64;
     font-size: 1.5rem;
@@ -101,6 +101,39 @@
     height: 70px;
 }
 
+.main-container-wrapper .tweets-container {
+    margin-left: 8vw;
+    margin-top: 10vh;
+    width: 90vw;
+}
+
+.main-container-wrapper .tweets-container h2{
+    color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.64;
+    font-size: 2.2rem;
+    letter-spacing: -0.51px;
+    text-align: left;
+}
+
+.main-container-wrapper .tweets-container .tweets{
+    /* margin: 0 30vw; */
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 10px;
+
+    
+    margin-top: 5vh;
+    /* width: 100vw; */
+}
+
+.main-container-wrapper .tweets-container .tweets div{
+    height: fit-content;
+    /* width: 150vw; */
+}
+
+
+
 
 @media only screen and (max-width: 700px) {
 
@@ -128,7 +161,7 @@
         padding-top: 0;
         width: 100%;
         height: 50%;
-        margin-top: 5vh;
+        margin-top: 10vh;
     }
 
 
@@ -136,6 +169,19 @@
         margin-bottom: 0;
         margin-top: 13vh;
         width: 100%;
+    }
+
+    .main-container-wrapper .tweets-container {
+        margin-top: 0;
+    }
+    .main-container-wrapper .tweets-container .tweets {
+        display: block;
+        /* margin-left: -8vw; */
+        width: 80vw;
+    } 
+
+    .main-container-wrapper .tweets-container  .tweet-disable {
+        display: none;
     }
 
     

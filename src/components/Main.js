@@ -1,9 +1,12 @@
 import React from 'react'
 import './Main.css'
+import { TwitterTweetEmbed } from 'react-twitter-embed';
+// import TweetEmbed from 'react-tweet-embed'
 
 function Main() {
   return (
-    <div className='main-container'>
+    <div className="main-container-wrapper">
+      <div className='main-container'>
       <div className='text-container'>
       <div className="bio">
         <div className='data'>
@@ -48,6 +51,24 @@ function Main() {
           <div className='img-txt'>I am a Front-end web developer based out of gujarat, India. A keen learner and believer of consistent growth. I aspire to work at small and growing startups where i can employ my skills.</div>
         </div>  
     </div>
+    <div className='tweets-container'>
+      <h2>Recent Tweets</h2>
+      <div className="tweets">
+      <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'}/>
+      <TwitterTweetEmbed className='tweet' tweetId={'1545468748550766595'}/>
+      <div className="tweet-disable">
+      <TwitterTweetEmbed className='tweet-disable' options={{height: 200}} tweetId={'1542973771723710464'}/>
+      </div>
+      <div>
+      <TwitterTweetEmbed className='tweet' tweetId={'1539522972116914177'}/>
+      <div className="tweet-disable">
+      <TwitterTweetEmbed className='tweet-disable' tweetId={'1536959990103040001'}/>
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
+    
   )
 }
 

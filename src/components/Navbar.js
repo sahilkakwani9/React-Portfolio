@@ -8,9 +8,9 @@ function Navbar() {
   return (
     <div className='nav-wrap'>
           <nav>
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/">Resume</Link></li>
             <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/about">About</Link></li>
+            <li><Link to="/about">Github</Link></li>
             {/* <li><Link to="/contact" class="phone-none">Contact</Link></li> */}
           </nav>
     </div>
