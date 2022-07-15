@@ -70,10 +70,10 @@
 }
 
 .main-container .skills-container h3 {
-    color: yellow;
+    color: #00c8ff;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.64;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     letter-spacing: -0.51px;
     text-align: left;
 }
@@ -108,7 +108,7 @@
 }
 
 .main-container-wrapper .tweets-container h2{
-    color: skyblue;
+    color: #00c6fd;
     font-family: Arial, Helvetica, sans-serif;
     opacity: 0.64;
     font-size: 2.2rem;
@@ -123,7 +123,7 @@
     grid-gap: 10px;
 
     
-    margin-top: 5vh;
+    margin-top: 3vh;
     /* width: 100vw; */
 }
 
@@ -132,6 +132,16 @@
     /* width: 150vw; */
 }
 
+.main-container-wrapper .footer {
+    margin-top: 10vh;
+}
+.main-container-wrapper .footer h2 {
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: left;
+    margin-left: 8vw;
+    font-family: Rubik Moonrocks;
+}
 
 
 

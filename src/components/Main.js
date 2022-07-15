@@ -67,6 +67,11 @@ function Main() {
       </div>
       </div>
     </div>
+    <div className='footer'>
+      <div className='knowmore'>
+        <h2>Want to know more?</h2>
+      </div>
+    </div>
     </div>
     
   )

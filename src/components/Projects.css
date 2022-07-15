@@ -2,7 +2,7 @@
     min-height: 100vh;
     padding-top: 150px;
     z-index: 1;
-    background-color: #272727;
+    background-color: #151718;
 }
 
 .project-container h1{
@@ -19,8 +19,8 @@
     margin-top: 50px;
     margin-left: 30px;
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     color: #a18a96;
     background: url('../../public/disney_hero.png') center no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@
     left:0;
     bottom: 0;
     width: 100%;
-    padding: 10px;
+    padding: 30px;
     background-color: #fff;
     border-top-left-radius: 20px;
     transform: translateY(70px);
