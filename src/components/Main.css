@@ -62,20 +62,27 @@
     letter-spacing: -0.1px;
 }
 
+
+
 .main-container .skills-container{
     /* position: absolute; */
     width: 45vw;
     overflow-x: scroll;
-    margin-top: 10vh;
+    margin-top: 13vh;
 }
 
 .main-container .skills-container h3 {
-    color: #00c8ff;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.64;
-    font-size: 1.8rem;
+    opacity: 0.8;
+    width: fit-content;
+    font-size: 2.5rem;
     letter-spacing: -0.51px;
     text-align: left;
+    border-bottom: #33ccff solid;
+    /* border-top: #ffffff solid; */
+    border-width: 5px;
+    border-radius: 10px;
 }
 
 .main-container .skills-container .skills-slider {
@@ -103,17 +110,22 @@
 
 .main-container-wrapper .tweets-container {
     margin-left: 8vw;
-    margin-top: 10vh;
+    margin-top: 20vh;
     width: 90vw;
 }
 
 .main-container-wrapper .tweets-container h2{
-    color: #00c6fd;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.64;
-    font-size: 2.2rem;
+    opacity: 0.8;
+    font-size: 2.5rem;
     letter-spacing: -0.51px;
     text-align: left;
+    width: fit-content;
+    border-bottom: #33ccff solid;
+    /* border-top: #ffffff solid; */
+    border-width: 5px;
+    border-radius: 10px;
 }
 
 .main-container-wrapper .tweets-container .tweets{
@@ -134,14 +146,89 @@
 
 .main-container-wrapper .footer {
     margin-top: 10vh;
+    margin-left: 8vw;
 }
 .main-container-wrapper .footer h2 {
     color: #FFFFFF;
     font-size: 4rem;
     text-align: left;
-    margin-left: 8vw;
-    font-family: Rubik Moonrocks;
+    font-family: Shadows Into Light;
+    margin: 0;
 }
+
+/* .main-container-wrapper .footer p {
+    color: white;
+    text-align: left;
+    margin-top: -10vh;
+} */
+.main-container-wrapper .footer .knowmore .then {
+    /* position: relative; */
+    /* text-align: center;
+    width: 100vw;
+    align-items: center;
+    justify-content: center; */
+    display: flex;
+    align-items: center;
+}
+.main-container-wrapper .footer button {
+    padding: 1px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.main-container-wrapper .footer svg {
+    width: 2vw;
+}
+
+.main-container-wrapper .footer button p {
+    width: 4vw;
+    margin-left: 2px;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration:none;
+    color:#FFF;
+    margin-left: 2vw;
+    /* position: absolute;
+    bottom: 2.5vh;
+    left: 10vw; */
+  }
+  .rainbow-button {
+    width:calc(10vw + 6px);
+    height:calc(4vw + 6px);
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size: 2vw;
+    font-weight:bold;
+  }
+  .rainbow-button:after {
+    content:'Mail me';
+    width:10vw;
+    height: 4vw;
+    background-color:#191919;
+    border-radius: 5px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .rainbow-button:hover {
+    animation:slidebg 2s linear infinite;
+  }
+  
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
 
 
 
@@ -194,5 +281,23 @@
         display: none;
     }
 
-    
+    .main-container-wrapper .footer h2 {
+        font-size: 2.5rem;
+    } 
+
+    a {
+        margin-left: 4vw;
+    }
+    .rainbow-button{
+        width:calc(15vw + 8px);
+        height:calc(7vw + 8px);
+        font-size: 3vw;
+        border-radius: 5px;
+    }
+
+    .rainbow-button:after {
+        width: 15vw;
+        height: 7vw;
+        border-radius: 5px;
+    }
 }
