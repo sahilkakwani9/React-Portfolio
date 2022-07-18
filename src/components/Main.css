@@ -134,7 +134,6 @@
     grid-template-columns: 1fr 1.5fr;
     grid-gap: 10px;
 
-    
     margin-top: 3vh;
     /* width: 100vw; */
 }
@@ -148,6 +147,7 @@
     margin-top: 10vh;
     margin-left: 8vw;
 }
+
 .main-container-wrapper .footer h2 {
     color: #FFFFFF;
     font-size: 4rem;
@@ -223,6 +223,40 @@ a {
   .rainbow-button:hover {
     animation:slidebg 2s linear infinite;
   }
+
+  .main-container-wrapper .footer .line {
+    display: flex;
+    margin-left: -8vw;
+    align-items: center;
+    margin-top: 5vh;
+  }
+  .main-container-wrapper .footer .line a {
+    margin-left: 0;
+  }
+
+  .main-container-wrapper .footer hr{
+    width: 48vw;
+    background-color: #ffffff;
+    border-radius: 2px;
+  }
+
+  .main-container-wrapper .footer .text{
+    color: rgb(164, 164, 164);
+    display: flex;
+    justify-content: center;
+    margin-right: 8vw;
+    margin-top: -2vh;
+    font-family: Poppins;
+    align-items: center;
+  }
+  .main-container-wrapper .footer .text a {
+    margin-left: 0;
+    color: rgb(164, 164, 164);
+  }
+
+  .main-container-wrapper .footer .text p {
+    margin-top: 0;
+  }
   
   @keyframes slidebg {
     to {
@@ -275,6 +309,7 @@ a {
         display: block;
         /* margin-left: -8vw; */
         width: 80vw;
+        margin-top: 0;
     } 
 
     .main-container-wrapper .tweets-container  .tweet-disable {
@@ -299,5 +334,14 @@ a {
         width: 15vw;
         height: 7vw;
         border-radius: 5px;
+    }
+    .main-container-wrapper .footer .line hr{
+        width: 40vw;
+    }
+    .main-container-wrapper .footer .line svg {
+        width: 40px;
+    }
+    .main-container-wrapper .footer .text {
+        margin-top: 0;
     }
 }
