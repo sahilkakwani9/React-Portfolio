@@ -1,14 +1,30 @@
 [
     {
         "id": 1,
-        "src": "/",
+        "src": "./discord_hero.png",
         "name": "Discord-UI Clone",
-        "Description": ""
+        "Description": "Made a Discord UI Clone Using React",
+        "class": "card first"
     },
     {
         "id": 2,
-        "src": "",
+        "src": "./disney_hero.png",
         "name":"Disney+ Clone",
-        "Description": ""
+        "Description": "Made a Disney+ Clone Using React,Styled Components and Firebase",
+        "class": "card"
+    },
+    {
+        "id": 3,
+        "src": "./deblog-hero.png",
+        "name":"DeBlog",
+        "Description": "Made DeBlog Using React, Tailwind css, Polygon and Hardhat",
+        "class": "card"
+    },
+    {
+        "id": 4,
+        "src": "./toon_hero.png",
+        "name": "Toon Pred",
+        "Description": "Made a Discord UI Clone Using React",
+        "class": "card first"
     }
 ]
