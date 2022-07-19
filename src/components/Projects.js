@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className='project-container'>
         <div className="project-wrapper">
-            <h1>Recent work</h1>
+            <h1>Work</h1>
             <div className="card-wrap">
                 {projects && projects.map((e,i)=>{
                     return <div className={e.class}>
