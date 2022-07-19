@@ -54,7 +54,10 @@ function Main() {
     <div className='tweets-container'>
       <h2>Tweets</h2>
       <div className="tweets">
-      <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'}/>
+        <div className="tweet">
+        <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'}/>
+        </div>
+      
       <TwitterTweetEmbed className='tweet' tweetId={'1545468748550766595'}/>
       <div className="tweet-disable">
       <TwitterTweetEmbed className='tweet-disable' options={{height: 200}} tweetId={'1542973771723710464'}/>

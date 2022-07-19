@@ -18,7 +18,7 @@
 
 .nav-wrap nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     /* margin-right: -2%; */
     width: 100vw;
 }
@@ -26,7 +26,6 @@
 .nav-wrap li{
     /* margin-right: 20%; */
     /* color: #383838; */
-    margin: auto 30px;
     font-family: 'Futura T';
     font-size: 30px;
     padding: 5px;

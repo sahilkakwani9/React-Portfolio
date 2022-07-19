@@ -10,7 +10,7 @@ function Navbar() {
           <nav>
             <li><a href="/Resume-Sahil-Kakwani.pdf" download>Resume</a></li>
             <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/about">Github</Link></li>
+            <li><a href="https://www.linkedin.com/in/sahil-kakwani/">LinkedIn</a></li>
             {/* <li><Link to="/contact" class="phone-none">Contact</Link></li> */}
           </nav>
     </div>
