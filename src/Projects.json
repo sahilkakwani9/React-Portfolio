@@ -26,5 +26,12 @@
         "name": "Toon Pred",
         "Description": "Made a Discord UI Clone Using React",
         "class": "card first"
+    },
+    {
+        "id": 5,
+        "src":"./mern_hero.png",
+        "name": "Restaurant Reviews",
+        "Description": "Made a full stack mern app",
+        "class": "card first"
     }
 ]

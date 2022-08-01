@@ -20,17 +20,18 @@
 .card-wrap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
 }
 
 .card-wrap .card {
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 60px;
     position: relative;
     
     /* width: 450px; */
-    width: 29vw;
+    width: 25vw;
     /* height: 400px; */
-    height: 55vh;
+    height: 50vh;
     color: #a18a96;
     /* background: url('../../public/disney_hero.png') no-repeat; */
     /* background-size: 100% 70%; */
@@ -53,7 +54,7 @@
     left:-2vw;
     bottom: 0;
     width: 100%;
-    padding: 30px;
+    padding: 25px;
     /* background-color: rgb(151, 151, 151); */
     border-top-left-radius: 20px;
     background-color: #2f3436;
@@ -124,6 +125,7 @@
     .card-wrap .card {
         width: 80vw;
         height: 45vh;
+        margin: 20px auto;
     }
 
     .card .card-content {
