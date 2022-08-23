@@ -68,13 +68,13 @@ function Main() {
       <h2>Tweets</h2>
       {
         load?(<div className="lottie">
-        <Lottie options={defaultOptions} height={300} width={400} margin={0} className='lottie' />
+        <Lottie options={defaultOptions} height={400} width={400} margin={0} className='lottie' />
         {/* <img src="./loader.gif" alt="do" /> */}
       </div>):(null)
       }
       <div className="tweets">
         <div className="tweet">
-        <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'} onLoad={()=>setLoad(false)}/>
+        <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'}  onLoad={()=>setLoad(false)}/>
         </div>
       
       <TwitterTweetEmbed className='tweet' tweetId={'1545468748550766595'}/>
