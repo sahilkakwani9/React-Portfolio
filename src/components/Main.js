@@ -1,9 +1,22 @@
 import React from 'react'
 import './Main.css'
 import { TwitterTweetEmbed } from 'react-twitter-embed';
+import Lottie from "react-lottie";
+import animationData from "../lottie/loader.json";
+import { useState } from 'react';
 // import TweetEmbed from 'react-tweet-embed'
 
 function Main() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    margin: 0,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "slice",
+    },
+  };
+  const [load, setLoad] = useState(true)
   return (
     <div className="main-container-wrapper">
       <div className='main-container'>
@@ -53,9 +66,15 @@ function Main() {
     </div>
     <div className='tweets-container'>
       <h2>Tweets</h2>
+      {
+        load?(<div className="lottie">
+        <Lottie options={defaultOptions} height={300} width={400} margin={0} className='lottie' />
+        {/* <img src="./loader.gif" alt="do" /> */}
+      </div>):(null)
+      }
       <div className="tweets">
         <div className="tweet">
-        <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'}/>
+        <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'} onLoad={()=>setLoad(false)}/>
         </div>
       
       <TwitterTweetEmbed className='tweet' tweetId={'1545468748550766595'}/>
