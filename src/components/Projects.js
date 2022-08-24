@@ -14,6 +14,7 @@ function Projects() {
                         <div className="body">
                             <h3 className="project-name">{e.name}</h3>
                             <p>{e.Description}</p>
+                            <p className='won'>{e.won}</p>
                             {/* <p>More</p> */}
                             <div className="btn-wrap">
                             <button>Watch Live</button>

@@ -87,6 +87,11 @@
 
 }
 
+.card-wrap .card .won {
+    text-align: right;
+    color: #33ccff;
+}
+
 .card-wrap .card button {
     font-family: 'Work Sans';
     font-weight: 900;
