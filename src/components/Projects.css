@@ -74,6 +74,7 @@
     margin-bottom: 0;
     margin-top: 8px;
     margin-bottom: 8px;
+    font-weight: light;
     /* font-family: 'Inter'; */
     color: 000;
     /* text-align: left; */
@@ -206,8 +207,13 @@
     }
     .card-wrap .card {
         width: 80vw;
-        height: 45vh;
+        /* height: 45vh; */
         margin: 20px auto;
+        height: fit-content;
+    }
+
+    .card-wrap .card button {
+        padding: 10px 40px;
     }
 
     .card .card-content {
