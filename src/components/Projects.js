@@ -10,12 +10,21 @@ function Projects() {
             <div className="card-wrap">
                 {projects && projects.map((e,i)=>{
                     return <div className={e.class}>
-                    <img src={e.src} alt="" />
+                        <img src={e.src} alt="project" />
+                        <div className="body">
+                            <h3 className="project-name">{e.name}</h3>
+                            <p>{e.Description}</p>
+                            {/* <p>More</p> */}
+                            <div className="btn-wrap">
+                            <button>Watch Live</button>
+                            </div>
+                        </div>
+                    {/* <img src={e.src} alt="" />
                     <div className="card-content">
                         <h3 className="card-title">{e.name}</h3>
                         <span className='card-subtitle'>Preview</span>
                         <p className='card-description'>{e.Description}</p>
-                    </div>
+                    </div> */}
                 </div>
                 })}
             </div>

@@ -18,35 +18,117 @@
 }
 
 .card-wrap {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto; */
+    grid-gap: 50px;
+    margin-inline: 9vw;
+    margin-block: 50px;
+    
+    /* margin-bottom: 20px; */
 }
 
-.card-wrap .card {
+/* .card-wrap .card {
     margin-top: 50px;
     margin-left: 60px;
     position: relative;
     
-    /* width: 450px; */
     width: 25vw;
-    /* height: 400px; */
     height: 50vh;
     color: #a18a96;
-    /* background: url('../../public/disney_hero.png') no-repeat; */
-    /* background-size: 100% 70%; */
+
     border-radius: 20px;
     overflow: hidden;
-    /* object-fit: contain; */
+} */
+
+.card-wrap .card {
+    border-radius: 6px;
+    position: relative;
+    background-color: #fff;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    width: 24vw;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 5vh;
+    box-shadow: 6px 6px 0 0 #33ccff;
+    /* box-shadow: 2px -5px 5px #fff; */
+    
+    /* height: 45vh; */
+}
+
+.card:hover {
+    transition: 0.8s all;
+    
+}
+
+.card-wrap .first button{
+    /* padding-bottom: 15px; */
+    margin-top: 20px !important;
+    
+    bottom: 5vh;
+}
+
+.card-wrap .card h3{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    /* font-family: 'Inter'; */
+    color: 000;
+    /* text-align: left; */
+}
+
+.card-wrap .card p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: grey;
+
+}
+
+.card-wrap .card button {
+    font-family: 'Work Sans';
+    font-weight: 900;
+    font-size: 18px;
+    padding: 10px 80px;
+    margin-top: 10px;
+    color: #33ccff;
+    background-color: #fff;
+    border: 1px solid #33ccff;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0 0 #33ccff;
+}
+
+.card button:hover {
+    box-shadow: none;
+    transition: 0.8s all;
+}
+
+.card-wrap .card .btn-wrap {
+    text-align: center;
 }
 
 .card-wrap .card img {
     width: 100%;
-    height: 62%;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+    /* border-radius: 7px 7px 0px 0px; */
+    object-fit: fill;
+    /* border-bottom: 3px solid #2f3436; */
+    /* box-shadow: 1 1 1#2f3436; */
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .card-wrap .first img {
-    height: 66%;
+    /* height: 80%; */
+}
+
+.card .body {
+    padding: 5px 20px;
+    /* text-align: left; */
+}
+.card .body .project-name {
+    
 }
 
 .card .card-content {

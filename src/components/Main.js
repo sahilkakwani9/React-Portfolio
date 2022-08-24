@@ -74,7 +74,7 @@ function Main() {
       }
       <div className="tweets">
         <div className="tweet">
-        <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'}  onLoad={()=>setLoad(false)}/>
+        <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'} onLoad={()=>setLoad(false)} />
         </div>
       
       <TwitterTweetEmbed className='tweet' tweetId={'1545468748550766595'}/>

@@ -3,35 +3,35 @@
         "id": 1,
         "src": "./discord_hero.png",
         "name": "Discord-UI Clone",
-        "Description": "Made a Discord UI Clone Using React",
-        "class": "card first"
+        "Description": "A replica of UI of DIscord, made with React, Raw CSS",
+        "class": "card"
     },
     {
         "id": 2,
         "src": "./disney_hero.png",
         "name":"Disney+ Clone",
-        "Description": "Made a Disney+ Clone Using React,Styled Components and Firebase",
+        "Description": "A replica of Disney, made with React,Styled Components and Firebase",
         "class": "card"
     },
     {
         "id": 3,
         "src": "./deblog-hero.png",
         "name":"DeBlog",
-        "Description": "Made DeBlog Using React, Tailwind css, Polygon and Hardhat",
+        "Description": "Deblog is a decentralised blogging platform, made with React, Tailwind css, Polygon and Hardhat",
         "class": "card"
     },
     {
         "id": 4,
         "src": "./toon_hero.png",
         "name": "Toon Pred",
-        "Description": "Made a Discord UI Clone Using React",
-        "class": "card first"
+        "Description": "Toon Pred is Looney Tunes version of Simon game, made with vanilla js",
+        "class": "card"
     },
     {
         "id": 5,
         "src":"./mern_hero.png",
         "name": "Restaurant Reviews",
-        "Description": "Made a full stack mern app",
-        "class": "card first"
+        "Description": "a full stack MERN app to find restaurants and also give them reviews",
+        "class": "card"
     }
 ]
