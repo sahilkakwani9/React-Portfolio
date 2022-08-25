@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "src": "./discord_hero.png",
-        "name": "Discord-UI Clone",
-        "Description": "A replica of UI of DIscord, made with React, Raw CSS",
+        "src": "./deblog-hero.png",
+        "name":"DeBlog",
+        "Description": "Deblog is a decentralised blogging platform, made with React, Tailwind css, Polygon and Hardhat",
         "class": "card",
-        "won": ""
+        "won": "*Won Hackathon*"
     },
     {
         "id": 2,
@@ -17,14 +17,6 @@
     },
     {
         "id": 3,
-        "src": "./deblog-hero.png",
-        "name":"DeBlog",
-        "Description": "Deblog is a decentralised blogging platform, made with React, Tailwind css, Polygon and Hardhat",
-        "class": "card",
-        "won": "*Won Hackathon*"
-    },
-    {
-        "id": 4,
         "src": "./toon_hero.png",
         "name": "Toon Pred",
         "Description": "Toon Pred is Looney Tunes version of Simon game, made with vanilla js",
@@ -32,7 +24,7 @@
         "won": ""
     },
     {
-        "id": 5,
+        "id": 4,
         "src":"./mern_hero.png",
         "name": "Restaurant Reviews",
         "Description": "A full stack MERN app to find restaurants and also give them reviews",
@@ -40,7 +32,7 @@
         "won": ""
     },
     {
-        "id": 6,
+        "id": 5,
         "src": "./ranis_hero.png",
         "name": "Boxing Rania",
         "Description": "A game where a random boxer gets knocked when he loses all his points.",
@@ -48,11 +40,19 @@
         "won": ""
     },
     {
-        "id": 7,
+        "id": 6,
         "src": "./meta_hero.png",
         "name": "Meta Music",
         "Description": "Metamusic is a decentralized music platform where artists can showcase their work as NFT , and can claim rewards for the same.",
         "class":"card",
         "won":"*Won Hackathon*"
+    },
+    {
+        "id": 7,
+        "src": "./discord_hero.png",
+        "name": "Discord-UI Clone",
+        "Description": "A replica of UI of DIscord, made with React, Raw CSS",
+        "class": "card",
+        "won": ""
     }
 ]

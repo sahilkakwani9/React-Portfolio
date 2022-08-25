@@ -51,6 +51,7 @@
     height: 68vh;
     width: 90%;
     border-radius: 6px;
+    /* box-shadow: 8px 8px 0 0 gray; */
 }
 
 .main-container .headshot-img .img-txt{

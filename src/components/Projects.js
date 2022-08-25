@@ -7,6 +7,10 @@ function Projects() {
     <div className='project-container'>
         <div className="project-wrapper">
             <h1>Work</h1>
+            <div className='window'>
+                <button className='all toggle'>All</button>
+                <button className='collab toggle'>Colloborated</button>
+            </div>
             <div className="card-wrap">
                 {projects && projects.map((e,i)=>{
                     return <div className={e.class}>
