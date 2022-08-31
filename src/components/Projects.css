@@ -11,21 +11,21 @@
     width: fit-content;
     margin: auto;
     font-size: 35px;
-    border-bottom: #33ccff solid;
+    border-bottom: #86e1ff solid;
     /* border-top: #ffffff solid; */
     border-width: 5px;
     border-radius: 10px;
 }
 .window {
-    margin-top: 30px;
+    margin-top: 7=20px;
     
 }
 .toggle {
     padding: 10px 10px;
     min-width: 10vw;
-    font-size: 1.2rem;
-    font-family: Work Sans;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-family: Anton;
+    /* font-weight: 600; */
     
 }
 
@@ -34,7 +34,14 @@
 .all {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.window .blue {
     background-color: #33ccff;
+}
+
+.window .white {
+    background-color: #ffffff;
 }
 
 .all:hover {
@@ -46,9 +53,9 @@
     border-bottom-right-radius: 10px;
 }
 
-.collab:hover {
+/* .collab:hover {
     background-color: #fff;
-}
+} */
 
 .card-wrap {
     display: flex;

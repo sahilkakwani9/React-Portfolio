@@ -5,7 +5,8 @@
         "name":"DeBlog",
         "Description": "Deblog is a decentralised blogging platform, made with React, Tailwind css, Polygon and Hardhat",
         "class": "card",
-        "won": "*Won Hackathon*"
+        "won": "*Won Hackathon*",
+        "colloborated": true
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "name":"Disney+ Clone",
         "Description": "A replica of Disney, made with React,Styled Components and Firebase",
         "class": "card",
-        "won": ""
+        "won": "",
+        "colloborated": false
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "name": "Toon Pred",
         "Description": "Toon Pred is Looney Tunes version of Simon game, made with vanilla js",
         "class": "card",
-        "won": ""
+        "won": "",
+        "colloborated": false
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "name": "Restaurant Reviews",
         "Description": "A full stack MERN app to find restaurants and also give them reviews",
         "class": "card",
-        "won": ""
+        "won": "",
+        "colloborated": false
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "name": "Boxing Rania",
         "Description": "A game where a random boxer gets knocked when he loses all his points.",
         "class": "card",
-        "won": ""
+        "won": "",
+        "colloborated": false
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "name": "Meta Music",
         "Description": "Metamusic is a decentralized music platform where artists can showcase their work as NFT , and can claim rewards for the same.",
         "class":"card",
-        "won":"*Won Hackathon*"
+        "won":"*Won Hackathon*",
+        "colloborated": true
     },
     {
         "id": 7,
@@ -53,6 +59,7 @@
         "name": "Discord-UI Clone",
         "Description": "A replica of UI of DIscord, made with React, Raw CSS",
         "class": "card",
-        "won": ""
+        "won": "",
+        "colloborated": false
     }
 ]
