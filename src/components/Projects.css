@@ -24,9 +24,9 @@
 .toggle {
     padding: 10px 10px;
     min-width: 10vw;
-    font-size: 1.4rem;
-    font-family: Anton;
-    /* font-weight: 600; */
+    font-size: 1.5rem;
+    font-family: 'Futura T';
+    font-weight: 700;
     
 }
 
@@ -39,7 +39,7 @@
 
 .window .blue {
     background-color: #33ccff;
-    border: 1px solid #333;
+    /* border: 1px solid #333; */
     /* box-shadow: 10px 0 2px -2px #888; */
 }
 
@@ -124,18 +124,18 @@
 }
 
 .card-wrap .card h3{
-    font-size: 30px;
+    font-size: 2.3rem;
     margin-bottom: 0;
     margin-top: 8px;
     margin-bottom: 8px;
-    font-weight: light;
-    /* font-family: 'Inter'; */
+    font-weight: 200;
+    font-family: 'Futura T';
     color: 000;
     /* text-align: left; */
 }
 
 .card-wrap .card p {
-    margin-top: 5px;
+    margin-top: 20px;
     font-size: 14px;
     color: grey;
 

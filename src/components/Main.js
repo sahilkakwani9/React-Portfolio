@@ -24,7 +24,7 @@ function Main() {
       <div className="bio">
         <div className='data'>
           <h1 className='author'>Sahil Kakwani</h1>
-          <div className="subtitle">Deep Thinker and Web Developer</div>
+          <div className="subtitle"><span className='wavy'>Deep</span> <span className='wavy'>Thinker</span> and <span className='wavy'>Web</span> <span className='wavy'>Developer</span></div>
         </div>
         <div className="skills-container">
         <h3>Skills</h3> 

@@ -27,7 +27,7 @@
 
 .main-container .author {
     color: white;
-    font-size: 8rem;
+    font-size: 8.5rem;
     font-weight: bolder;
     font-family: 'Inter', sans-serif;
     margin-top: 0;
@@ -38,8 +38,9 @@
     opacity: 0.64;
     font-size: 1.5rem;
     color: #FFFFFF;
-    letter-spacing: -0.51px;
-    margin-top: -8px;
+    font-weight: 500;
+    /* letter-spacing: -0.51px; */
+    margin-top: -4px;
 }
 
 .main-container .headshot-img {
@@ -267,6 +268,10 @@ a {
   .main-container-wrapper .footer .text p {
     margin-top: 0;
   }
+  /* .wavy {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+} */
   
   @keyframes slidebg {
     to {
@@ -287,6 +292,11 @@ a {
     .main-container .author {
         font-size: 4rem;
     }
+    .main-container .subtitle {
+        font-size: 1rem;
+    }
+
+    
 
     .main-container .data {
         width: 80%;
