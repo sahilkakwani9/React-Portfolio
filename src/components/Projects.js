@@ -28,7 +28,7 @@ function Projects() {
                                         <p>{e.Description}</p>
                                         <p className='won'>{e.won}</p>
                                         <div className="btn-wrap">
-                                            <button>Watch Live</button>
+                                            <button><a className='btn-txt' href={e.href}>Watch Live</a></button>
                                         </div>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ function Projects() {
                                     <p>{e.Description}</p>
                                     <p className='won'>{e.won}</p>
                                     <div className="btn-wrap">
-                                        <button>Watch Live</button>
+                                        <button><a className='btn-txt' href={e.href}>Watch Live</a></button>
                                     </div>
                                 </div>
                             </div>
