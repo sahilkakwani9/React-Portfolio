@@ -46,6 +46,7 @@ function Projects() {
                                     <p className='won'>{e.won}</p>
                                     <div className="btn-wrap">
                                         <button><a className='btn-txt' href={e.href}>Watch Live</a></button>
+                                        <button><a className='btn-txt' href={e.href}>Tech Stack</a></button>
                                     </div>
                                 </div>
                             </div>

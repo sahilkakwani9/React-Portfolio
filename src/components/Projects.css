@@ -147,7 +147,7 @@
 }
 
 .card-wrap .card button {
-    padding: 10px 80px;
+    padding: 10px 20px;
     margin-top: 10px;
     color: #33ccff;
     background-color: #fff;
@@ -163,6 +163,8 @@
 
 .card-wrap .card .btn-wrap {
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .card-wrap .card img {

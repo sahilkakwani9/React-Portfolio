@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "src": "./deblog-hero.png",
+        "src": "./deblog-hero.webp",
         "name":"DeBlog",
         "Description": "Deblog is a decentralised blogging platform, made with React, Tailwind css, Polygon and Hardhat",
         "class": "card",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "src": "./disney_hero.png",
+        "src": "./disney_hero.webp",
         "name":"Disney+ Clone",
         "Description": "A replica of Disney, made with React,Styled Components and Firebase",
         "class": "card",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "src":"./mern_hero.png",
+        "src":"./mern_hero.webp",
         "name": "Restaurant Reviews",
         "Description": "A full stack MERN app to find restaurants and also give them reviews",
         "class": "card",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "src": "./ranis_hero.png",
+        "src": "./ranis_hero.webp",
         "name": "Boxing Rania",
         "Description": "A game where a random boxer gets knocked when he loses all his points.",
         "class": "card",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "src": "./meta_hero.png",
+        "src": "./meta_hero.webp",
         "name": "Meta Music",
         "Description": "Metamusic is a decentralized music platform where artists can showcase their work as NFT , and can claim rewards for the same.",
         "class":"card",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "src": "./discord_hero.png",
+        "src": "./discord_hero.webp",
         "name": "Discord-UI Clone",
         "Description": "A replica of UI of DIscord, made with React, Raw CSS",
         "class": "card",
@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "src": "./toon_hero.png",
+        "src": "./toon_hero.webp",
         "name": "Toon Pred",
         "Description": "Toon Pred is Looney Tunes version of Simon game, made with vanilla js",
         "class": "card",
