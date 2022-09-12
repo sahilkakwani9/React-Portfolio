@@ -270,6 +270,12 @@
 
     .card-wrap .card button {
         padding: 10px 40px;
+        margin-block: 10px;
+    }
+
+    .card-wrap .card .btn-wrap {
+        /* justify-content: space-between; */
+        display: block;
     }
 
     .card .card-content {
