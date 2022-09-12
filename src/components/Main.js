@@ -52,7 +52,16 @@ function Main() {
             <img src="./git.svg" alt="git" />
           </div>
           <div className='list'>
+            <img className='express' src="./Next.png" alt="express" />
+          </div>
+          <div className='list'>
             <img className='express' src="./express.png" alt="express" />
+          </div>
+          <div className='list'>
+            <img className='express' src="./mongo.svg" alt="express" />
+          </div>
+          <div className='list'>
+            <img className='express' src="./tailwind.svg" alt="express" />
           </div>
         </div>
       </div>

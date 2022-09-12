@@ -71,8 +71,8 @@
 .main-container .skills-container{
     /* position: absolute; */
     width: 45vw;
-    overflow-x: scroll;
-    margin-top: 13vh;
+    /* overflow-x: scroll; */
+    margin-top: 15vh;
 }
 
 .main-container .skills-container h3 {
@@ -87,12 +87,15 @@
     /* border-top: #ffffff solid; */
     border-width: 5px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .main-container .skills-container .skills-slider {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     /* padding-top: 10px; */
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .main-container .skills-slider .list {
@@ -100,6 +103,7 @@
     width: 100px; */
     margin-right: 30px;
     color: #FFFFFF;
+    margin-top: 20px;
     /* justify-content: space-between; */
 }
 
@@ -114,7 +118,7 @@
 
 .main-container-wrapper .tweets-container {
     margin-left: 8vw;
-    margin-top: 20vh;
+    margin-top: 15vh;
     width: 90vw;
     color: #ffffff;
     text-align: left;
@@ -209,6 +213,7 @@ a {
     bottom: 2.5vh;
     left: 10vw; */
   }
+
   .rainbow-button {
     width:calc(10vw + 6px);
     height:calc(4vw + 6px);
@@ -220,6 +225,7 @@ a {
     text-transform:uppercase;
     font-size: 2vw;
     font-weight:bold;
+    margin-left: 20px;
   }
   .rainbow-button:after {
     content:'Mail me';
@@ -320,6 +326,10 @@ a {
         margin-bottom: 0;
         margin-top: 13vh;
         width: 100%;
+    }
+
+    .main-container .skills-container .skills-slider{
+        justify-content: space-between;
     }
 
     .main-container-wrapper .tweets-container {
