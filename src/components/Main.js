@@ -83,18 +83,18 @@ function Main() {
       }
       <div className="tweets">
         <div className="tweet">
-        <TwitterTweetEmbed className='tweet' tweetId={'1545784495798112256'} onLoad={()=>setLoad(false)} />
+        <TwitterTweetEmbed className='tweet' tweetId={'1574713505172840450'} onLoad={()=>setLoad(false)} />
         </div>
       
       <TwitterTweetEmbed className='tweet' tweetId={'1545468748550766595'}/>
       <div className="tweet-disable">
-      <TwitterTweetEmbed className='tweet-disable' options={{height: 200}} tweetId={'1542973771723710464'}/>
+      <TwitterTweetEmbed className='tweet-disable' options={{height: 200}} tweetId={'1574396695164907522'}/>
       </div>
       <div>
-      <TwitterTweetEmbed className='tweet' tweetId={'1539522972116914177'}/>
-      <div className="tweet-disable">
+      <TwitterTweetEmbed className='tweet' tweetId={'1583081977846312960'}/>
+      {/* <div className="tweet-disable">
       <TwitterTweetEmbed className='tweet-disable' tweetId={'1536959990103040001'}/>
-      </div>
+      </div> */}
       </div>
       </div>
     </div>
