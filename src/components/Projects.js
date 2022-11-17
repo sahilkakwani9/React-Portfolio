@@ -17,27 +17,9 @@ function Projects() {
                 <button className={`collab toggle ${collabActive}`} onClick={()=>{setFilter("collab");setAllActive("white");setCollabActive("blue")}}>Colloborated</button>
             </div>
             <div className="card-wrap">
-                {
-                    projects.map((project)=>{
-                        return <div className='card-box'>
-                        <div className='project-name'>
-                            <p>{project.name}</p>
-                        </div>
-                        {/* <hr /> */}
-                       <div className='card-img-container'>
-                            <img className='card-img' src={project.src}/>
-                       </div>
-                       <div className='card-btn'>
-                           <button>
-                                Learn More
-                                <img className='btn-svg' src='/arrow.svg'/>
-                           </button>
-                       </div>
-                    </div>
-                    })
-                }
+               
                 
-                {/* {projects && projects.map((e,i)=>{
+                {projects && projects.map((e,i)=>{
                     if ( filter === "collab" ){
                         if (e.colloborated === true) {
                             return (
@@ -72,7 +54,7 @@ function Projects() {
                             </div>
                         )
                     }
-                })} */}
+                })}
             </div>
         </div>
     </div>

@@ -54,7 +54,7 @@
 
 .main-container .headshot-img img{
     height: 60vh;
-    width: 90%;
+    width: 100%;
     border-radius: 6px;
     /* box-shadow: 8px 8px 0 0 gray; */
 }
@@ -64,8 +64,8 @@
     text-align: start;
     opacity: 0.76;
     font-size: 1rem;
-    margin-top: -20px;
-    padding: 35px;
+    /* margin-top: -20px; */
+    padding: 20px 10px;
     line-height: 1.7;
     letter-spacing: -0.1px;
 }
@@ -145,7 +145,7 @@
 
 
 .main-container-wrapper .tweets-container .lottie {
-    margin: 0;
+    margin-left: -8vw;
 }
 
 .main-container-wrapper .tweets-container .tweets{
@@ -300,10 +300,10 @@ a {
         display: block;
     }
     .main-container .author {
-        font-size: 4rem;
+        font-size: 5rem;
     }
     .main-container .subtitle {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     
@@ -323,6 +323,11 @@ a {
         width: 100%;
         /* height: 60%; */
         margin-top: 8vh;
+    }
+
+    .main-container .headshot-img .img-txt {
+        padding-left: 8vw;
+        /* text-align: center; */
     }
 
 
@@ -375,12 +380,15 @@ a {
         height: 7vw;
         border-radius: 5px;
     }
+
     .main-container-wrapper .footer .line hr{
         width: 40vw;
     }
+
     .main-container-wrapper .footer .line svg {
         width: 40px;
     }
+
     .main-container-wrapper .footer .text {
         margin-top: 0;
     }
@@ -394,6 +402,7 @@ a {
         width: 80%;
         margin: 15vh auto 0;
     }
+    
     .main-container .skills-container {
         margin-bottom: 0;
         margin-top: 13vh;

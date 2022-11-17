@@ -38,7 +38,7 @@
 }
 
 .window .blue {
-    background-color: #F0BCD4;
+    background-color: #33ccff;
     /* border: 1px solid #333; */
     /* box-shadow: 10px 0 2px -2px #888; */
 }
@@ -68,14 +68,14 @@
     flex-wrap: wrap;
     /* grid-template-columns: auto auto auto; */
     grid-gap: 50px;
-    padding-inline: 30vh;
+    padding-inline: 15vh;
     margin-block: 50px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* margin-bottom: 20px; */
 }
 
 .card-wrap .card-box {
-    background-color: #F0BCD4;
+    background-color: #33ccff;
     height: 300px;
     width: 400px;
     padding: 15px;
@@ -122,7 +122,7 @@
 }
 
 .card-wrap .card-btn button {
-    background-color: #F0BCD4;
+    background-color: #33ccff;
     font-size: 18px;
     display: flex;
     padding: 6px 30px;
@@ -325,7 +325,8 @@
 
 @media screen and (max-width: 700px){
     .card-wrap {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
+        padding: 0;
     }
     .card-wrap .card {
         width: 80vw;
