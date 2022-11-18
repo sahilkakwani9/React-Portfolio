@@ -18,8 +18,17 @@ function Projects() {
             </div>
             <div className="card-wrap">
                
-                
-                {projects && projects.map((e,i)=>{
+                <div className='card-box'>
+                    <div className='card-skeleton'>
+                    <img src='./disney_hero.webp' alt='disney' />
+                    <div className='content'>
+                    <h2>EthIndia Builder House</h2>
+                    <p>A replica of Disney, made with React,Styled Components and Firebase</p>
+                    <button>Watch Live</button>
+                    </div>
+                    </div>
+                </div>
+                {/* {projects && projects.map((e,i)=>{
                     if ( filter === "collab" ){
                         if (e.colloborated === true) {
                             return (
@@ -54,7 +63,7 @@ function Projects() {
                             </div>
                         )
                     }
-                })}
+                })} */}
             </div>
         </div>
     </div>
