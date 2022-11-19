@@ -32,11 +32,23 @@
     /* margin: 5px; */
     margin-bottom: 10px;
     border-bottom: transparent 2px solid;
+    border-radius: 6px;
 }
 
-.nav-wrap li:hover {
-    /* border-bottom: #27aac8 2px solid; */
+/* .nav-wrap li:hover {
+    border-bottom: #3B82f6 2px solid;
+    color: #3B82F6;
+} */
+
+.nav-wrap li[aria-label='page'] {
+    border-bottom: #3B82f6 2px solid;   
+    border-bottom: #3B82f6 2px solid;
+    /* border-top: #ffffff solid; */
+    border-width: 4px;
+    border-radius: 6px;
 }
+
+
 
 .nav-wrap a {
     text-decoration: none;
