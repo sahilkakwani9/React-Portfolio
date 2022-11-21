@@ -60,6 +60,7 @@
   /* z-index: 0; */
   border-radius: 20px;
   background-color: #3B82F6;
+  color: #151718;
   transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
@@ -70,14 +71,8 @@
 
 .collab {
     left: 10.4vw;
+    /* color: #fff; */
 }
-
-
-
-
-
-
-
 
 .card-wrap {
     display: flex;
@@ -118,6 +113,10 @@
 .card-box h2 {
     margin: 0;
     margin-top: 6px;
+}
+
+.card-box p {
+    margin-top: 10px;
 }
 
 .card-box button {
@@ -297,8 +296,20 @@
 @media screen and (max-width: 700px){
     .card-wrap {
         /* grid-template-columns: 1fr; */
-        padding: 0;
+        padding-inline: 40px;
     }
+
+    .window {
+        width: 52vw;
+    }
+    .project-container .window .tab .blue {
+        width: 15vw;
+    }
+    .collab {
+        width: 40vw!important;
+        left: 14.5vw;
+    }
+
     .card-wrap .card {
         width: 80vw;
         /* height: 45vh; */

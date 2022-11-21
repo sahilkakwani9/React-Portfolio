@@ -11,8 +11,8 @@ function Projects() {
             <div className="project-wrapper">
                 <div className='window'>
                     <div className='tab'>
-                        <button onClick={() => { setFilter("all"); setActive("all"); }} className={`all toggle ${active}`}>All</button>
-                        <button className={`collab toggle ${active}`} onClick={() => { setFilter("collab"); setActive("collab"); }}>Colloborated</button>
+                        <button onClick={() => { setFilter("all"); setActive("all"); }} className={`toggle`}>All</button>
+                        <button className={`toggle`} onClick={() => { setFilter("collab"); setActive("collab"); }}>Colloborated</button>
                         <div className={`blue ${active}`}></div>
                     </div>
                 </div>

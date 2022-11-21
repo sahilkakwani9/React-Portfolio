@@ -21,7 +21,6 @@
 .main-container .data {
     padding-top: 30vh;
     text-align: left;
-    
     width: 70%;
 }
 
@@ -87,7 +86,10 @@
     font-size: 2.5rem;
     letter-spacing: -0.51px;
     text-align: left;
-    border-bottom: #33ccff solid;
+    border-bottom: #3B82f6 2px solid;
+    /* border-top: #ffffff solid; */
+    border-width: 6px;
+    border-radius: 10px;
     /* border-top: #ffffff solid; */
     border-width: 5px;
     border-radius: 10px;
@@ -138,8 +140,8 @@
     width: fit-content;
     border-bottom: #3B82f6 2px solid;
     /* border-top: #ffffff solid; */
-    border-width: 4px;
-    border-radius: 6px;
+    border-width: 6px;
+    border-radius: 10px;
 }
 
 
@@ -257,8 +259,9 @@ a {
 
   .main-container-wrapper .footer hr{
     width: 48vw;
-    background-color: #ffffff;
+    background-color: #3B82f6;
     border-radius: 2px;
+    border: #3B82f6 1px solid;
   }
 
   .main-container-wrapper .footer .text{
@@ -266,8 +269,8 @@ a {
     display: flex;
     justify-content: center;
     margin-right: 8vw;
-    margin-top: -2vh;
-    font-family: Poppins;
+    /* margin-top: vh; */
+    font-family: Inter;
     align-items: center;
   }
   .main-container-wrapper .footer .text a {
