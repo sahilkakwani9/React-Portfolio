@@ -55,6 +55,7 @@
     height: 60vh;
     width: 100%;
     border-radius: 6px;
+    object-fit: contain;
     /* box-shadow: 8px 8px 0 0 gray; */
 }
 
@@ -303,7 +304,7 @@ a {
         display: block;
     }
     .main-container .author {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
     .main-container .subtitle {
         font-size: 1.2rem;
