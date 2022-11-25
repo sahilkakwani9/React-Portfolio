@@ -301,13 +301,24 @@
 
     .window {
         width: 52vw;
+        font-size: 10px;
+    }
+
+    .toggle {
+        width: 50%;
+    }
+    .tab button{
+        font-size: 1.2rem;
     }
     .project-container .window .tab .blue {
-        width: 15vw;
+        width: 28vw;
     }
     .collab {
-        width: 40vw!important;
-        left: 14.8vw;
+        width: 30vw!important;
+        left: 25vw;
+    }
+    .tab .white {
+        color: white;
     }
 
     .card-wrap .card {

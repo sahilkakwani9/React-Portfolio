@@ -4,15 +4,15 @@ import projects from "../Projects.json"
 import { useEffect } from 'react';
 
 function Projects() {
-    const [filter, setFilter] = useState("all");
+    const [filter, setFilter] = useState(true);
     const [active, setActive] = useState("all");
     return (
         <div className='project-container'>
             <div className="project-wrapper">
                 <div className='window'>
                     <div className='tab'>
-                        <button onClick={() => { setFilter("all"); setActive("all"); }} className={`toggle`}>All</button>
-                        <button className={`toggle`} onClick={() => { setFilter("collab"); setActive("collab"); }}>Colloborated</button>
+                        <button onClick={() => { setFilter(false); setActive("all"); }} className={`toggle ${filter?'':'white'}`}>All</button>
+                        <button className={`toggle ${filter?'white':''}`} onClick={() => { setFilter(true); setActive("collab"); }}>Colloborated</button>
                         <div className={`blue ${active}`}></div>
                     </div>
                 </div>
