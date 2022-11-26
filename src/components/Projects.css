@@ -19,7 +19,7 @@
 
 .window {
     margin-top: 20px;
-    width: 20.6vw;
+    width: 25vw;
     text-align: center;
     margin: auto;
     /* background-color: #fff; */
@@ -54,7 +54,7 @@
 .project-container .window .tab .blue {
     position: absolute;
   height: 100%;
-  width: 11vw;
+  width: 50%;
   z-index: -1;
   bottom: 0;
   /* z-index: 0; */
@@ -66,11 +66,12 @@
 
 .all {
     left: 0;
-    margin-right: 2px;
+    margin-right: 10px;
 }
 
 .collab {
-    left: 10.4vw;
+    left: 45%;
+    width: 55%!important;
     /* color: #fff; */
 }
 
@@ -300,7 +301,7 @@
     }
 
     .window {
-        width: 52vw;
+        width: 62vw;
         font-size: 10px;
     }
 
@@ -308,7 +309,7 @@
         width: 50%;
     }
     .tab button{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .project-container .window .tab .blue {
         width: 28vw;
