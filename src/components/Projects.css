@@ -35,6 +35,10 @@
     width: 100%;
 }
 
+.tab .white {
+    color: white;
+}
+
 .toggle {
     padding: 8px 8px;
     min-width: 10vw;
@@ -314,8 +318,13 @@
     .project-container .window .tab .blue {
         width: 28vw;
     }
+
+    .all {
+        width: 50%!important;
+    }
+
     .collab {
-        width: 30vw!important;
+        width: 40vw!important;
         left: 25vw;
     }
     .tab .white {

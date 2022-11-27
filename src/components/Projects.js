@@ -7,20 +7,23 @@ import { motion } from 'framer-motion';
 function Projects() {
     const [filter, setFilter] = useState("all");
     const [active, setActive] = useState("all");
+    const [color, setColor] = useState(true);
     
     return (
         <div className='project-container'>
             <div className="project-wrapper">
                 <div className='window'>
                     <div className='tab'>
-                        <button onClick={() => { setFilter("all"); setActive("all"); }} className={`toggle ${filter?'':'white'}`}>All</button>
-                        <button className={`toggle ${filter?'white':''}`} onClick={() => { setFilter("collab"); setActive("collab"); }}>Colloborated</button>
+                        <button onClick={() => { setFilter("all"); setActive("all"); setTimeout(() => {
+                            setColor(true)
+                        }, 200);}} className={`toggle ${color?'white':''}`}>All</button>
+                        <button className={`toggle ${color?'':'white'}`} onClick={() => { setFilter("collab"); setActive("collab"); setTimeout(() => {
+                            setColor(false)
+                        }, 200);}}>Colloborated</button>
                         <div className={`blue ${active}`}></div>
                     </div>
                 </div>
                 <motion.div className="card-wrap" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }}>
-
-
                     {projects && projects.map((e, id) => {
                         if (filter === "collab") {
                             if (e.colloborated === true) {
