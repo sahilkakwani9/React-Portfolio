@@ -16,7 +16,9 @@ function Main() {
       preserveAspectRatio: "slice",
     },
   };
-  const [load, setLoad] = useState(true)
+  const [load, setLoad] = useState(true);
+  const timestamp = new Date();
+  const year = timestamp.getFullYear();
   return (
     <div className="main-container-wrapper">
       <div className='main-container'>
@@ -114,7 +116,7 @@ function Main() {
           <hr />
         </div>
         <div className='text'>
-          <p>&copy; 2022,&nbsp;<a href="https://github.com/sahilkakwani9">Sahil Kakwani</a></p>
+          <p>&copy; {year},&nbsp;<a href="https://github.com/sahilkakwani9">Sahil Kakwani</a></p>
         </div>
       </div>
     </div>
