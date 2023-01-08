@@ -11,9 +11,20 @@
     },
     {
         "id": 2,
+        "src": "./eventli.png",
+        "name":"Evently",
+        "Description": "Evently is an event management platform where organizors and atendees create value with ease",
+        "class": "card",
+        "won": "",
+        "colloborated": true,
+        "href": "https://eventli.vercel.app/"
+    },
+
+    {
+        "id": 2,
         "src": "./Buymeabrew.png",
         "name":"Buy Me a Brew",
-        "Description": "A decentralized platform to support my work.",
+        "Description": "A decentralized platform to support my work",
         "class": "card",
         "won": "",
         "colloborated": false,
