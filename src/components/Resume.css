@@ -1,0 +1,29 @@
+.resume {
+    padding-top: 12vh;
+}
+
+.pdf-container {
+text-align: center;
+margin-inline: auto;
+width: max-content;
+border: 4px solid #3B82f6;
+border-image: repeating-linear-gradient( 50deg, #F55536, #F55536 3%, #3B82F6 1%, #3B82F6 8%) 10;
+}
+
+.pdf-container .textLayer {
+    display: none;
+}
+
+.pdf-container .annotationLayer {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .react-pdf__Page__canvas {
+        height: 70vh !important;
+        width: 90vw !important;
+    }
+}
+
+
+
