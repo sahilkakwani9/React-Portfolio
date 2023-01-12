@@ -14,7 +14,7 @@ function Resume() {
       <div className='pdf-container'>
 
 <Document
-  file="./Resume.pdf"
+  file="/Resume.pdf"
   onLoadSuccess={onDocumentLoadSuccess}
 >
   <Page pageNumber={pageNumber} />
