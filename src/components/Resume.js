@@ -25,7 +25,7 @@ function Resume() {
           file="/Resume.pdf"
           onLoadSuccess={onDocumentLoadSuccess}
           onLoadError={console.error}
-          loading={<h1 color='#ffffff'>loading</h1>}
+          loading={<h1 style={{color: 'white'}}>loading</h1>}
         >
           <Page pageNumber={pageNumber} />
         </Document>
