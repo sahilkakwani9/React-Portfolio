@@ -23,6 +23,9 @@ border-image: repeating-linear-gradient( 50deg, #F55536, #F55536 3%, #3B82F6 1%,
         height: 70vh !important;
         width: 90vw !important;
     }
+    .resume {
+        padding-top: 10vh;
+    }
 }
 
 
