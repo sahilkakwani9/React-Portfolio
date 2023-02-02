@@ -53,10 +53,11 @@
 .main-container .headshot-img img{
     height: 60vh;
     /* width: 100%; */
-    border-radius: 6px;
+    border-radius: 8px;
     object-fit: contain;
-    border: 4px solid #3B82f6;
-    border-image: repeating-linear-gradient( 50deg, #F55536, #F55536 3%, #3B82F6 1%, #3B82F6 8%) 10;
+    /* border: 4px solid #3B82f6; */
+    background-color: #3B82F6;
+    /* border-image: repeating-linear-gradient( 50deg, #F55536, #F55536 3%, #3B82F6 1%, #3B82F6 8%) 10; */
 }
 
 .main-container .headshot-img .img-txt{
@@ -258,7 +259,7 @@ a {
 
   .main-container-wrapper .footer .text{
     /* color: rgb(164, 164, 164); */
-    color: #3B82f6;
+    color: #fff;
     display: flex;
     justify-content: center;
     margin-right: 8vw;
@@ -268,7 +269,7 @@ a {
   }
   .main-container-wrapper .footer .text a {
     margin-left: 0;
-    color: #3B82f6;
+    color: #fff;
   }
 
   .main-container-wrapper .footer .text p {

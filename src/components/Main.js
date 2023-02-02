@@ -71,7 +71,7 @@ function Main() {
         
       </div> 
       <div className='headshot-img'>
-          <img src="./sahil-headshot-c.webp" alt="" />
+          <img src="./headshot.png" alt="" />
           <div className='img-txt'>I am a Front-end web developer based out of gujarat, India. A keen learner and believer of consistent growth. I aspire to work at small and growing startups where i can employ my skills. Currently, I am Exploring Blockchain Space and Looking forward to be a web3 developer</div>
         </div>  
     </div>
