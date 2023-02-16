@@ -101,14 +101,14 @@ function Main() {
       </div>
     </div>
     <div className='footer'>
-      <div className='knowmore'>
+      {/* <div className='knowmore'>
         <h2>Want to know more?</h2>
         <div className='then'>
           <h2>Then</h2>
           <a href="mailto:sahkakwani@gmail.com" className="rainbow-button" alt="Button"></a>
         </div>
         
-      </div>
+      </div> */}
       <div className='end'>
         <div className='line'>
           <hr />
